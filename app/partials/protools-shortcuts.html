@@ -13,9 +13,16 @@
 
       <ul class="shortcuts">
         <li ng-repeat="shortcut in shortcuts | filter:query" class="thumbnail">
-          <p ng-click="select(shortcut)">{{shortcut.action}}</p>
-          <p ng-show="mac">{{shortcut.mac}}</p>
-          <p ng-show="windows">{{shortcut.windows}}</p>
+          <div ng-show="isSelect(shortcut)">
+            <p ng-click="select(shortcut)">{{shortcut.action}}</p>
+            <p>{{shortcut.mac}}</p>
+            <p>{{shortcut.windows}}</p>
+          </div>
+          <div ng-show="!isSelect(shortcut)">
+            <p ng-click="select(shortcut)">{{shortcut.action}}</p>
+            <p ng-show="mac">{{shortcut.mac}}</p>
+            <p ng-show="windows">{{shortcut.windows}}</p>
+          </div>
         </li>
       </ul>
 

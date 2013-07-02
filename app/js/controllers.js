@@ -6,7 +6,17 @@ function ProtoolsCtrl($scope, $http) {
   });
 
   $scope.select = function(shortcut) {
-  $scope.selected = shortcut;
+  if ($scope.selected == shortcut){
+    $scope.selected = '';
+  } else {
+      $scope.selected = shortcut;
+    }
+  };
+
+  $scope.isSelect = function(shortcut) {
+    if ($scope.selected == shortcut){
+      return true;
+    }
   };
 }
 
