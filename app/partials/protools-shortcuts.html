@@ -5,16 +5,16 @@
       Search: <input ng-model="query">
     </div>
     <div class="span12">
-      Mac: <input type="checkbox" ng-model="mac">
-      Windows: <input type="checkbox" ng-model="windows">
+      Show All Mac: <input type="checkbox" ng-model="mac">
+      Show All Windows: <input type="checkbox" ng-model="windows">
 
     </div>
     <div class="span12">
 
       <ul class="shortcuts">
         <li ng-repeat="shortcut in shortcuts | filter:query" class="thumbnail">
-          <div ng-show="isSelect(shortcut)">
-            <p ng-click="select(shortcut)">{{shortcut.action}}</p>
+          <div ng-show="isSelect(shortcut)" class='selected'>
+            <p ng-click="select(shortcut)" class='boldit'>{{shortcut.action}}</p>
             <p>{{shortcut.mac}}</p>
             <p>{{shortcut.windows}}</p>
           </div>
