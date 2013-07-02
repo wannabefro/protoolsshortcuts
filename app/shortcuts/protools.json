@@ -1,0 +1,27 @@
+[{
+  "action": "Change parameter on all channel strips",
+  "mac": "Option + applicable function",
+  "windows": "Alt + applicable function"
+  },
+  {
+  "action": "Change parameter on all selected channel strips",
+  "mac": "Option + Shift + applicable function",
+  "windows": "Alt + Shift + applicable function"
+  },
+  {
+  "action": "Toggle item and set all others to same new state",
+  "mac": "Option-click on applicable item",
+  "windows": "Alt-click on applicable item "
+  },
+  {
+  "action": "Toggle item and set all others to opposite state",
+  "mac": "Command-click on applicable item",
+  "windows": "Control-click on applicable item "
+  },
+  {
+  "action": "Fine tune an item (Fine Adjust mode)",
+  "mac": "Command-click on applicable fader/pot/breakpoint function",
+  "windows": "Control-click on applicable fader/pot/breakpoint function"
+  },
+
+]
