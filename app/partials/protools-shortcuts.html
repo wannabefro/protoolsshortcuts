@@ -1,13 +1,11 @@
 <div class="container-fluid">
   <div class="row-fluid">
     <div class="span12">
-
-      Search: <input ng-model="query">
+      Show Mac Shortcuts: <input type="checkbox" ng-model="mac">
+      Show Windows Shortcuts: <input type="checkbox" ng-model="windows">
     </div>
     <div class="span12">
-      Show All Mac: <input type="checkbox" ng-model="mac">
-      Show All Windows: <input type="checkbox" ng-model="windows">
-
+      Search: <input ng-model="query">
     </div>
     <div class="span12">
 
@@ -15,13 +13,13 @@
         <li ng-repeat="shortcut in shortcuts | filter:query" class="thumbnail">
           <div ng-show="isSelect(shortcut)" class='selected'>
             <p ng-click="select(shortcut)" class='boldit'>{{shortcut.action}}</p>
-            <p>{{shortcut.mac}}</p>
-            <p>{{shortcut.windows}}</p>
+            <p ng-show="mac">{{shortcut.mac}}</p>
+            <p ng-show="windows">{{shortcut.windows}}</p>
           </div>
           <div ng-show="!isSelect(shortcut)">
             <p ng-click="select(shortcut)">{{shortcut.action}}</p>
-            <p ng-show="mac">{{shortcut.mac}}</p>
-            <p ng-show="windows">{{shortcut.windows}}</p>
+            <!-- <p ng-show="mac">{{shortcut.mac}}</p>
+            <p ng-show="windows">{{shortcut.windows}}</p> -->
           </div>
         </li>
       </ul>
