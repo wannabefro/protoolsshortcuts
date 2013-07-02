@@ -23,5 +23,15 @@
   "mac": "Command-click on applicable fader/pot/breakpoint function",
   "windows": "Control-click on applicable fader/pot/breakpoint function"
   },
+  {
+  "action": "Select multiple contiguous items (tracks, Clips, paths)",
+  "mac": "Click to select first item, then Shift-click another to select all similar items between",
+  "windows": "Click to select first item, then Shift-click another to select all similar items between"
+  },
+  {
+  "action": "Select multiple non-contiguous items (tracks, Clips, paths)",
+  "mac": "Click to select first item, then Command-click to select the next item ",
+  "windows": "Click to select first item, then Control-click another to select the next item "
+  }
 
 ]
