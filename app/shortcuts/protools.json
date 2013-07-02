@@ -32,6 +32,2261 @@
   "action": "Select multiple non-contiguous items (tracks, Clips, paths)",
   "mac": "Click to select first item, then Command-click to select the next item ",
   "windows": "Click to select first item, then Control-click another to select the next item "
+  },
+  {
+    "action":"Start/stop playback",
+    "mac":"Spacebar",
+    "windows":"Spacebar"
+  },
+  {
+    "action":"Half-speed playback",
+    "mac":"Shift+Spacebar",
+    "windows":"Shift+Spacebar"
+  },
+  {
+    "action":"Pause (pre-prime deck for instant playback and record)",
+    "mac":"Control+Spacebar, or Option- click, on Transport Play button",
+    "windows":"Start+Spacebar, or Alt-click on Transport Play button"
+  },
+  {
+    "action":"Enable/disable online playback",
+    "mac":"Command+J, or Option+Spacebar",
+    "windows":"Ctrl+J, or Alt+Spacebar"
+  },
+  {
+    "action":"Center on selection start/end",
+    "mac":"Left/Right Arrow keys (when selection exceeds window view)",
+    "windows":"Left/Right Arrow keys (when selection exceeds window view)"
+  },
+  {
+    "action":"Play Edit selection",
+    "mac":"Option+[",
+    "windows":"Alt+["
+  },
+  {
+    "action":"Back/Forward (move the playback location backwards/forwards by the Back/Forward amount) (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Command+Transport Rewind button or Transport Fast Forward button",
+    "windows":"Ctrl+Transport Rewind button or Transport Fast Forward button"
+  },
+  {
+    "action":"Back/Forward and Play (move the playback location backwards/forwards by Back/ Forward amount and then begin playback) (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Command+Option+Trans- port Rewind button or Trans- port Fast Forward button",
+    "windows":"Ctrl+Alt+Transport Rewind button or Transport Fast Forward button"
+  },
+  {
+    "action":"Extend a selection backwards by the Back/Forward amount (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Shift+Command+Transport Rewind button or Transport Fast Forward button",
+    "windows":"Shift+Ctrl+ Transport Rewind button or Transport Fast Forward button"
+  },
+  {
+    "action":"Extend the selection backwards by the Back/Forward amount and begin playback (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Shift+Command+Option+ Transport Rewind button or Transport Fast Forward button",
+    "windows":"Shift+Ctrl+Alt+Transport Rewind button or Transport Fast Forward button"
+  },
+  {
+    "action":"Loop playback toggle",
+    "mac":"Command+Shift+L, or Con- trol-click on Transport Play button",
+    "windows":"Ctrl+Shift+L, or Start-click on Transport Play button"
+  },
+  {
+    "action":"Dynamic Transport Mode toggle",
+    "mac":"Command+Control+P",
+    "windows":"Ctrl+Start+P"
+  },
+  {
+    "action":"Transport Master toggle (Pro Tools/machine/MMC)",
+    "mac":"Command+Backslash (\\)",
+    "windows":"Ctrl+Backslash (\\)"
+  },
+  {
+    "action":"Solo-safe track",
+    "mac":"Command-click on track Solo",
+    "windows":"Ctrl-click on track Solo"
+  },
+  {
+    "action":"Start record",
+    "mac":"Command+Spacebar, F12, or 3 (on numeric keypad)*",
+    "windows":"Ctrl+Spacebar, or F12, or 3 (on numeric keypad)"
+  },
+  {
+    "action":"Stop record",
+    "mac":"Spacebar",
+    "windows":"Spacebar"
+  },
+  {
+    "action":"Stop record and discard recording take (not undoable)",
+    "mac":"Command+Period (.)",
+    "windows":"Ctrl+Period (.)"
+  },
+  {
+    "action":"Half-speed record",
+    "mac":"Command+Shift+Spacebar, or Shift+F12*",
+    "windows":"Ctrl+Shift+Spacebar, or Shift+F12"
+  },
+  {
+    "action":"Enable/disable online record",
+    "mac":"Command+Option+ Spacebar*",
+    "windows":"Ctrl+Alt+Spacebar"
+  },
+  {
+    "action":"Record-safe track",
+    "mac":"Command-click on track Record Enable button",
+    "windows":"Ctrl-click on track Record Enable button"
+  },
+  {
+    "action":"Cycle through record modes: normal, Destructive, Loop, QuickPunch�, TrackPunch, DestructivePunch",
+    "mac":"Control-click on Transport Record Enable button",
+    "windows":"Start-click on Transport Record Enable button"
+  },
+  {
+    "action":"Loop Record toggle",
+    "mac":"Option+L",
+    "windows":"Alt+L"
+  },
+  {
+    "action":"TrackPunch toggle (Pro Tools HD and\nPro Tools with Complete Production Toolkit only)",
+    "mac":"Command+Shift+T",
+    "windows":"Ctrl+Shift+T"
+  },
+  {
+    "action":"QuickPunch toggle",
+    "mac":"Command+Shift+P",
+    "windows":"Ctrl+Shift+P"
+  },
+  {
+    "action":"Enter/Exit record during playback in QuickPunch",
+    "mac":"Command+Spacebar, F12, or click Transport Record button*",
+    "windows":"Ctrl+Spacebar, F12, or click Transport Record Enable button"
+  },
+  {
+    "action":"DestructivePunch or TrackPunch enable/disable an audio track (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Control-click the track�s Record Enable button",
+    "windows":"Start-click the track�s Record Enable button"
+  },
+  {
+    "action":"DestructivePunch or TrackPunch enable/disable all audio tracks (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Option-Control-click a track�s Record Enable button",
+    "windows":"Alt-Start-click a track�s Record Enable button"
+  },
+  {
+    "action":"DestructivePunch or TrackPunch enable/disable all selected audio tracks (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Control-Option-Shift-click a track�s Record Enable button",
+    "windows":"Start-Alt-Shift-click a track�s Record Enable button"
+  },
+  {
+    "action":"Simultaneously DestructivePunch or TrackPunch enable/disable and record enable/disable all audio tracks (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Option-click a track�s Record Enable button",
+    "windows":"Alt-click a track�s Record Enable button"
+  },
+  {
+    "action":"Simultaneously DestructivePunch or TrackPunch enable/disable and record enable/disable all selected audio tracks (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Option-Shift-click a track�s Record Enable button",
+    "windows":"Alt-Shift-click a track�s Record Enable button"
+  },
+  {
+    "action":"Temporarily force all VCA slave tracks to toggle their record enable status\n(Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Option-click the VCA Record Enable button",
+    "windows":"Alt-click the VCA Record Enable button"
+  },
+  {
+    "action":"Temporarily force all VCA slave tracks to tog- gle their Track Input status (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Option-click the VCA Track- Input button",
+    "windows":"Alt-click the VCA TrackInput button"
+  },
+  {
+    "action":"Enable or disable pre/post-roll time",
+    "mac":"Command+K",
+    "windows":"Ctrl+K"
+  },
+  {
+    "action":"Set and enable pre/post-roll time",
+    "mac":"Option-click with Selector before or after selection",
+    "windows":"Alt-click with Selector tool before or after selection"
+  },
+  {
+    "action":"Disable and set to zero pre/post-roll time",
+    "mac":"Option-click within selection closer to front or back",
+    "windows":"Alt-click within selection closer to front or back"
+  },
+  {
+    "action":"Play/Stop",
+    "mac":"0",
+    "windows":"0"
+  },
+  {
+    "action":"Rewind",
+    "mac":"1",
+    "windows":"1"
+  },
+  {
+    "action":"Fast Forward",
+    "mac":"2",
+    "windows":"2"
+  },
+  {
+    "action":"Record Enable",
+    "mac":"3",
+    "windows":"3"
+  },
+  {
+    "action":"Loop Playback mode on/off",
+    "mac":"4",
+    "windows":"4"
+  },
+  {
+    "action":"Loop Record mode on/off",
+    "mac":"5",
+    "windows":"5"
+  },
+  {
+    "action":"QuickPunch mode on/off",
+    "mac":"6",
+    "windows":"6"
+  },
+  {
+    "action":"Click on/off",
+    "mac":"7",
+    "windows":"7"
+  },
+  {
+    "action":"Countoff on/off",
+    "mac":"8",
+    "windows":"8"
+  },
+  {
+    "action":"MIDI Merge/Replace mode on/off",
+    "mac":"9",
+    "windows":"9"
+  },
+  {
+    "action":"1 x Forward playback speed",
+    "mac":"6",
+    "windows":"6"
+  },
+  {
+    "action":"1 x Rewind playback speed",
+    "mac":"4",
+    "windows":"4"
+  },
+  {
+    "action":"4 x Forward playback speed",
+    "mac":"9",
+    "windows":"9"
+  },
+  {
+    "action":"4 x Rewind playback speed",
+    "mac":"7",
+    "windows":"7"
+  },
+  {
+    "action":"1/4 x Forward playback speed",
+    "mac":"3",
+    "windows":"3"
+  },
+  {
+    "action":"1/4 x Rewind playback speed",
+    "mac":"1",
+    "windows":"1"
+  },
+  {
+    "action":"1/2 x Forward playback speed",
+    "mac":"5+6",
+    "windows":"5+6"
+  },
+  {
+    "action":"1/2 x Rewind playback speed",
+    "mac":"5+4",
+    "windows":"5+4"
+  },
+  {
+    "action":"2 x Forward playback speed",
+    "mac":"8+9",
+    "windows":"8+9"
+  },
+  {
+    "action":"2 x Backward playback speed",
+    "mac":"8+7",
+    "windows":"8+7"
+  },
+  {
+    "action":"1/16 x Forward playback speed",
+    "mac":"2+3",
+    "windows":"2+3"
+  },
+  {
+    "action":"1/16 x Backward playback speed",
+    "mac":"2+1",
+    "windows":"2+1"
+  },
+  {
+    "action":"Loop playback of Edit Selection",
+    "mac":"0",
+    "windows":"0"
+  },
+  {
+    "action":"Recall Memory Location",
+    "mac":"Period (.)+Memory Location+Period (.)",
+    "windows":"Period (.)+Memory Location+Period (.)"
+  },
+  {
+    "action":"Temporary Scrub mode when using Selector",
+    "mac":"Control-click and drag",
+    "windows":"Start-click and drag"
+  },
+  {
+    "action":"Extend selection while scrubbing",
+    "mac":"Shift-click and drag with the Scrubber tool, (also in temporary Scrub mode)",
+    "windows":"Shift-click and drag with the Scrubber, (also in temporary Scrub mode)"
+  },
+  {
+    "action":"Shuttle",
+    "mac":"Option-click-drag with Scrubber tool, (also in temporary Scrub mode)",
+    "windows":"Alt-click-drag with Scrubber, (also in temporary Scrub mode)"
+  },
+  {
+    "action":"Shuttle Lock (Classic or Transport mode)",
+    "mac":"Control+number key 1�9 (1=minimum, 5=real-time, 9=maximum)",
+    "windows":"Start+number key 1�9 (1=minimum, 5=real-time, 9=maximum)"
+  },
+  {
+    "action":"Change direction during Shuttle Lock (Classic or Transport mode)",
+    "mac":"Plus/Minus (+/�) keys For example, Control+ number+Minus (�) key",
+    "windows":"Plus/Minus (+/�) keys For example, Start+ number+Minus (�) key"
+  },
+  {
+    "action":"Shuttle Lock stop (Classic or Transport mode)",
+    "mac":"0 (press number key to resume shuttle)",
+    "windows":"0 (press number key to resume shuttle)"
+  },
+  {
+    "action":"Exit Shuttle Lock mode (Classic or Transport mode)",
+    "mac":"Spacebar or Escape (Esc) key",
+    "windows":"Spacebar or Escape (Esc) key"
+  },
+  {
+    "action":"Play by pre-roll value up to selection start/end (or current location if no selection)",
+    "mac":"Option+\nLeft/Right Arrow keys",
+    "windows":"Alt+\nLeft/Right Arrow keys"
+  },
+  {
+    "action":"Play by post-roll value from selection start/end (or current cursor location if no selection)",
+    "mac":"Command+ Left/Right Arrow keys",
+    "windows":"Ctrl+\nLeft/Right Arrow keys"
+  },
+  {
+    "action":"Play by pre- and post-roll value through selection start/end",
+    "mac":"Command+Option+ Left/Right Arrow keys",
+    "windows":"Ctrl+Alt+\nLeft/Right Arrow keys"
+  },
+  {
+    "action":"Cue Transport to selection start/end",
+    "mac":"Command+ Left/Right Arrow keys",
+    "windows":"Ctrl+Left/Right Arrow keys"
+  },
+  {
+    "action":"Cue Transport with pre/post-roll to selection start/end",
+    "mac":"Option+\nLeft/Right Arrow keys",
+    "windows":"Alt+Left/Right Arrow keys"
+  },
+  {
+    "action":"Shuffle mode",
+    "mac":"F1, or Alt+1\n(on computer keyboard)",
+    "windows":"F1, or Option+1\n(on computer keyboard)"
+  },
+  {
+    "action":"Slip mode",
+    "mac":"F2, or Alt+2\n(on computer keyboard)",
+    "windows":"F2, or Option+2\n(on computer keyboard)"
+  },
+  {
+    "action":"Spot mode",
+    "mac":"F3, or Alt+3\n(on computer keyboard)",
+    "windows":"F3, or Option+3\n(on computer keyboard)"
+  },
+  {
+    "action":"Grid mode",
+    "mac":"F4, or Alt+4\n(on computer keyboard)",
+    "windows":"F4,or Option+4\n(on computer keyboard)"
+  },
+  {
+    "action":"Enable Snap To Grid while in another Edit mode",
+    "mac":"Shfit+F4",
+    "windows":"Shfit+F4"
+  },
+  {
+    "action":"Enable Snap to Grid and Shuffle mode",
+    "mac":"F1+F4",
+    "windows":"F1+F4"
+  },
+  {
+    "action":"Enable Snap to Grid and Slip mode",
+    "mac":"F2+F4",
+    "windows":"F2+F4"
+  },
+  {
+    "action":"Enable Snap to Grid and Spot mode",
+    "mac":"F3+F4",
+    "windows":"F3+F4"
+  },
+  {
+    "action":"Zoomer tool",
+    "mac":"F5, or Command+1\n(on computer keyboard)",
+    "windows":"F5, or Ctrl+1\n(on computer keyboard)"
+  },
+  {
+    "action":"Trimmer tool",
+    "mac":"F6, or Command+2\n(on computer keyboard)",
+    "windows":"F6, or Ctrl+2\n(on computer keyboard)"
+  },
+  {
+    "action":"Selector tool",
+    "mac":"F7, or Command+3\n(on computer keyboard)",
+    "windows":"F7, or Ctrl+3\n(on computer keyboard)"
+  },
+  {
+    "action":"Grabber tool",
+    "mac":"F8, or Command+4\n(on computer keyboard)",
+    "windows":"F8, or Ctrl+4\n(on computer keyboard)"
+  },
+  {
+    "action":"Scrubber tool",
+    "mac":"F9, or Command+5\n(on computer keyboard, if mac OS X Expose is disabled)",
+    "windows":"F9, or Ctrl+5\n(on computer keyboard)"
+  },
+  {
+    "action":"Pencil tool",
+    "mac":"F10, or Command+6\n(on computer keyboard, if mac OS X Expose is disabled)",
+    "windows":"F10, or Ctrl+6\n(on computer keyboard)"
+  },
+  {
+    "action":"Smart Tool",
+    "mac":"F6+F7, F7+F8, or\nCommand+7 (on computer keyboard)",
+    "windows":"F6+F7, F7+F8, or Ctrl+7\n(on computer keyboard)"
+  },
+  {
+    "action":"Cycle through Edit modes",
+    "mac":"Single Open Quote (�) key, located above the Tab key",
+    "windows":"Single Open Quote (�) key, located above the Tab key"
+  },
+  {
+    "action":"Cycle through Edit tools",
+    "mac":"Escape (Esc) key",
+    "windows":"Escape (Esc) key, or Center-click"
+  },
+  {
+    "action":"Lock out or unlock Shuffle Mode",
+    "mac":"Command-click the Shuffle button",
+    "windows":"Ctrl-click the Shuffle button"
+  },
+  {
+    "action":"Enable or disable Tab to Transients command",
+    "mac":"Command+Option+Tab",
+    "windows":"Ctrl+Alt+Tab"
+  },
+  {
+    "action":"Locate cursor to next transient",
+    "mac":"Tab (if Tab to Transient enabled)",
+    "windows":"Tab (if Tab to Transient enabled)"
+  },
+  {
+    "action":"Locate cursor to previous transient",
+    "mac":"Option+Tab (if Tab to Tran- sient enabled)",
+    "windows":"Ctrl+Tab (if Tab to Transient enabled)"
+  },
+  {
+    "action":"Locate cursor to next Clip-boundary/sync point",
+    "mac":"Tab (if Tab to Transients is disabled)",
+    "windows":"Tab (if Tab to Transients is disabled)"
+  },
+  {
+    "action":"Locate cursor to previous Clip boundary/sync point",
+    "mac":"Option+Tab (if Tab to Transients is disabled)",
+    "windows":"Ctrl+Tab (if Tab to Transients is disabled)"
+  },
+  {
+    "action":"Go to and select next Clip",
+    "mac":"Control+Tab",
+    "windows":"Start+Tab"
+  },
+  {
+    "action":"Go to and select previous Clip",
+    "mac":"Control+Option+Tab",
+    "windows":"Start+Ctrl+Tab or Start+Ctrl"
+  },
+  {
+    "action":"Go to Song Start",
+    "mac":"Control+Return",
+    "windows":"Start+Enter"
+  },
+  {
+    "action":"Extend selection to Song Start",
+    "mac":"Shift+Control+Return",
+    "windows":"Shift+Start+Enter"
+  },
+  {
+    "action":"Extend selection to next Clip-boundary",
+    "mac":"Shift+Tab",
+    "windows":"Shift+Tab"
+  },
+  {
+    "action":"Extend selection to previous Clip-boundary",
+    "mac":"Option+Shift+Tab",
+    "windows":"Ctrl+Shift+Tab"
+  },
+  {
+    "action":"Extend selection to include next Clip",
+    "mac":"Control+Shift+Tab",
+    "windows":"Start+Shift+Tab"
+  },
+  {
+    "action":"Extend selection to include previous Clip",
+    "mac":"Control+Shift+Option+Tab",
+    "windows":"Start+Shift+Ctrl+Tab"
+  },
+  {
+    "action":"Return to start of session",
+    "mac":"Return",
+    "windows":"Enter"
+  },
+  {
+    "action":"Go to end of session",
+    "mac":"Option+Return",
+    "windows":"Ctrl+Enter"
+  },
+  {
+    "action":"Extend selection to start of session",
+    "mac":"Shift+Return",
+    "windows":"Shift+Enter"
+  },
+  {
+    "action":"Extend selection to end of session",
+    "mac":"Option+Shift+Return",
+    "windows":"Ctrl+Shift+Enter"
+  },
+  {
+    "action":"Link Timeline and Edit selection",
+    "mac":"Shift+Forward Slash (/)",
+    "windows":"Shift+Forward Slash (/)"
+  },
+  {
+    "action":"Set selection start/end during playback",
+    "mac":"Down/Up Arrow keys",
+    "windows":"Down/Up Arrow keys"
+  },
+  {
+    "action":"Set selection start/end to incoming time code while stopped",
+    "mac":"Down/Up Arrow keys",
+    "windows":"Down/Up Arrow keys"
+  },
+  {
+    "action":"Select entire Clip in Edit window",
+    "mac":"Double-click with Selector",
+    "windows":"Double-click with Selector tool"
+  },
+  {
+    "action":"Select entire track in Edit window",
+    "mac":"Triple-click with Selector, or single-click in track and press Command+A",
+    "windows":"Triple-click with Selector tool, or single-click in track and press Ctrl+A"
+  },
+  {
+    "action":"Select all Clips in all tracks in Edit window",
+    "mac":"Return, then press Com- mand+A",
+    "windows":"Enter, then press Ctrl+A"
+  },
+  {
+    "action":"Extend cursor or selection across all tracks",
+    "mac":"Enable �All� Edit group and Shift-click on any other track",
+    "windows":"Enable �All� Edit group and Shift-click on any other track"
+  },
+  {
+    "action":"Move the selection forward by the selection amount",
+    "mac":"Command+Control+ Option+Apostrophe (�)",
+    "windows":"Ctrl+Alt+Start+Apostrophe (�)"
+  },
+  {
+    "action":"Move the selection backward by the selection amount",
+    "mac":"Command+Control+ Option+L",
+    "windows":"Ctrl+Alt+Start+L"
+  },
+  {
+    "action":"Double the length of the Edit selection",
+    "mac":"Command+Control+ Option+Shift+ Apostrophe (�)",
+    "windows":"Ctrl+Alt+Start+Shift+ Apostrophe (�)"
+  },
+  {
+    "action":"Halve the length of the selection",
+    "mac":"Command+Control+ Option+Shift+L",
+    "windows":"Ctrl+Alt+Start+Shift+L"
+  },
+  {
+    "action":"Cancel Zoom toggle and remain at the same zoom level",
+    "mac":"Option+Shift+E",
+    "windows":"Alt+Shift+E"
+  },
+  {
+    "action":"Fit all shown tracks in the Edit window",
+    "mac":"Command+Option+Con- trol+Up arrow or Down arrow",
+    "windows":"Ctrl+Alt+Start+Up arrow or Down arrow"
+  },
+  {
+    "action":"Record enable tracks that contain the Edit cursor or Edit selection",
+    "mac":"Shift+R",
+    "windows":"Shift+R"
+  },
+  {
+    "action":"TrackInput Monitor enable tracks that contain the Edit cursor or Edit selection (Pro Tools HD and Pro Tools with Complete Production Tool- kit only)",
+    "mac":"Shift+I",
+    "windows":"Shift+I"
+  },
+  {
+    "action":"Solo tracks that contain the Edit cursor or Edit selection",
+    "mac":"Shift+S",
+    "windows":"Shift+S"
+  },
+  {
+    "action":"Mute tracks that contain the Edit cursor or Edit selection",
+    "mac":"Shift+M",
+    "windows":"Shift+M"
+  },
+  {
+    "action":"Move the insertion to the beginning of the Edit selection",
+    "mac":"Down arrow",
+    "windows":"Down arrow"
+  },
+  {
+    "action":"Move the insertion to the end of the Edit selection",
+    "mac":"Up arrow",
+    "windows":"Up arrow"
+  },
+  {
+    "action":"Increase or decrease the height of any  lane that contains the Edit cursor or an Edit selection",
+    "mac":"Control+Up/Down Arrow",
+    "windows":"Start+Up/Down Arrow"
+  },
+  {
+    "action":"Change Grid value",
+    "mac":"Control+Option+Plus/Minus (+/�) keys",
+    "windows":"Start+Alt+\nPlus/Minus (+/�) keys"
+  },
+  {
+    "action":"Change Nudge value",
+    "mac":"Command+Option+ Plus/Minus (+/�) keys",
+    "windows":"Ctrl+Alt+\nPlus/Minus (+/�) keys"
+  },
+  {
+    "action":"Nudge back by next Nudge value\n(Nudge Edit selection and any Clips entirely inside the Edit selection)",
+    "mac":"Minus (�) key (on numeric keypad), or Comma (,) (in Commands Keyboard Focus)",
+    "windows":"Minus (�) key (on numeric keypad), or Comma (,) (in Commands Keyboard Focus)"
+  },
+  {
+    "action":"Nudge forward by next Nudge value (Nudge Edit selection and any Clips entirely inside the Edit selection)",
+    "mac":"Plus (+) key (on numeric key- pad), or Period (.) (in Com- mands Keyboard Focus)",
+    "windows":"Plus (+) key (on numeric keypad), or Period (.) (in Commands Keyboard Focus)"
+  },
+  {
+    "action":"Nudge start/end data to right/left by Nudge value (keeps underlying audio and moves start/end)",
+    "mac":"Shift+Plus/Minus (+/�) keys",
+    "windows":"Shift+Plus/Minus (+/�) keys"
+  },
+  {
+    "action":"Nudge data within current Clip to right/left by Nudge value (keeps Clip start/end and moves underlying audio)",
+    "mac":"Control+Plus/Minus (+/�) keys",
+    "windows":"Start+Plus/Minus (+/�) keys"
+  },
+  {
+    "action":"Nudge left selection boundary right/left by Nudge value",
+    "mac":"Option+Shift+Plus/Minus (+/�) keys",
+    "windows":"Alt+Shift+Plus/Minus (+/�) keys"
+  },
+  {
+    "action":"Nudge right selection boundary right/left by Nudge value",
+    "mac":"Command+Shift+Plus/Minus (+/�) keys",
+    "windows":"Ctrl+Shift+Plus/Minus (+/�) keys"
+  },
+  {
+    "action":"Trim left edge of Clip to right/left by Nudge value",
+    "mac":"Option+Plus/Minus (+/�) keys",
+    "windows":"Alt+Plus/Minus (+/�) keys"
+  },
+  {
+    "action":"Trim right edge of Clip to right/left by Nudge value",
+    "mac":"Command+Plus/Minus (+/�) keys",
+    "windows":"Ctrl+Plus/Minus (+/�) keys"
+  },
+  {
+    "action":"Reverse Trimmer tool direction when trim- ming Clip",
+    "mac":"Option+Trimmer tool",
+    "windows":"Alt+Trimmer tool"
+  },
+  {
+    "action":"Trim up to, but not over, adjacent Clips",
+    "mac":"Hold down Control key while trimming",
+    "windows":"Hold down Start key while trimming"
+  },
+  {
+    "action":"Duplicate Clip(s) in Edit Window",
+    "mac":"Option-click selection and drag to destination",
+    "windows":"Alt-click selection and drag to destination"
+  },
+  {
+    "action":"Delete selection in playlist",
+    "mac":"Backspace or Delete (on computer keyboard)",
+    "windows":"Backspace or Delete (on computer keyboard)"
+  },
+  {
+    "action":"Constrain audio Clip to vertical movement",
+    "mac":"Control-click to move audio Clip with Grabber tool",
+    "windows":"Start-click to move audio Clip with Grabber tool"
+  },
+  {
+    "action":"Snap Clip start to stationary playhead or Edit selection start",
+    "mac":"Control-click new Clip with Grabber tool",
+    "windows":"Start-click new Clip with Grabber tool"
+  },
+  {
+    "action":"Snap Clip sync point to stationary playhead or Edit selection start",
+    "mac":"Control-Shift-click Clip containing the sync point with Grabber tool",
+    "windows":"Start-Shift-click Clip containing the sync point with Grabber tool"
+  },
+  {
+    "action":"Snap Clip end to stationary playhead or Edit selection end",
+    "mac":"Command-Control-click new Clip with Grabber tool",
+    "windows":"Ctrl-Start-click new Clip with Grabber tool"
+  },
+  {
+    "action":"Show or hide the Clip Gain Line",
+    "mac":"Control+Shift+Hyphen (-)",
+    "windows":"Start+Shift+Hyphen (-)"
+  },
+  {
+    "action":"Show or hide Clip Gain Info",
+    "mac":"Control+Shift+Equals (=)",
+    "windows":"Start+Shift+Equals (=)"
+  },
+  {
+    "action":"Add a Clip Gain breakpoint at the current Edit location",
+    "mac":"Control+Shift+E",
+    "windows":"Start+Shift+E"
+  },
+  {
+    "action":"Nudge the selected clip gain up",
+    "mac":"Control+Shift+Up Arrow",
+    "windows":"Start+Shift+Up Arrow"
+  },
+  {
+    "action":"Nudge the selected clip gain down",
+    "mac":"Control+Shift+Down Arrow",
+    "windows":"Start+Shift+Down Arrow"
+  },
+  {
+    "action":"Nudge the selected clip gain back",
+    "mac":"Control+Shift+Minus (�), Control+Shift+M, or Control+Shift+Comma (,)",
+    "windows":"Start+Shift+Minus (�), Start+Shift+M, or Start+Shift++Comma (,)"
+  },
+  {
+    "action":"Nudge the selected clip gain forward",
+    "mac":"Control+Shift+Plus (+), Control+Shift+Period (.), or Control+Shift+Slash (/)",
+    "windows":"Start+Shift+Plus (+), Start+Shift+Period (.), or Start+Shift+Slash (/)"
+  },
+  {
+    "action":"Clear Clip Gain",
+    "mac":"Control+Shift+B",
+    "windows":"Start+Shift+B"
+  },
+  {
+    "action":"Cut Clip Gain",
+    "mac":"Control+Shift+X",
+    "windows":"Start+Shift+X"
+  },
+  {
+    "action":"Copy Clip Gain",
+    "mac":"Control+Shift+C",
+    "windows":"Start+Shift+C"
+  },
+  {
+    "action":"Paste Clip Gain",
+    "mac":"Command+V",
+    "windows":"Control+V"
+  },
+  {
+    "action":"Solo the Playlist lane containing the Edit cursor",
+    "mac":"Shift+S",
+    "windows":"Shift+S"
+  },
+  {
+    "action":"Move the Edit cursor up and down through Playlist lanes",
+    "mac":"Control+P and Control+ Semicolon (;)",
+    "windows":"Start+P and Start+ Semicolon (;)"
+  },
+  {
+    "action":"Copy the selection to the main Playlist",
+    "mac":"Option+Control+V",
+    "windows":"Alt+Start+V"
+  },
+  {
+    "action":"Create a new playlist for the first selected track in the session",
+    "mac":"Control+\\",
+    "windows":"Start+\\"
+  },
+  {
+    "action":"Create a new playlist for each track in the session",
+    "mac":"Control+Option+\\",
+    "windows":"Start+Alt+\\"
+  },
+  {
+    "action":"Create a new playlist for each selected track in the session",
+    "mac":"Control+Option+Shift+\\",
+    "windows":"Start+Alt+Shift+\\"
+  },
+  {
+    "action":"Duplicate the main playlist for the first selected track in the session",
+    "mac":"Command+Control+\\",
+    "windows":"Control+Start+\\"
+  },
+  {
+    "action":"Duplicate the main playlist for each track in the session",
+    "mac":"Command+Option+Control+\\",
+    "windows":"Control+Alt+Start+\\"
+  },
+  {
+    "action":"Duplicate the main playlist for each selected track in the session",
+    "mac":"Command+Option+ Control+Shift+\\",
+    "windows":"Control+Alt+Start+Shift+\\"
+  },
+  {
+    "action":"Horizontal zoom in or out",
+    "mac":"Command+ ] or [",
+    "windows":"Ctrl+ ] or ["
+  },
+  {
+    "action":"Zoom to show entire session horizontally without affecting vertical zoom or scrolling",
+    "mac":"Command+Control+[",
+    "windows":"Ctrl+Start+["
+  },
+  {
+    "action":"Zoom in horizontally on a selection without affecting vertical zoom or scrolling",
+    "mac":"Command+Control+]",
+    "windows":"Ctrl+Start+]"
+  },
+  {
+    "action":"Vertical zoom to show default waveform height (Audio)",
+    "mac":"Command+Option+Control+[",
+    "windows":"Ctrl+Alt+Start+["
+  },
+  {
+    "action":"Incrementally zoom vertically on all audio tracks",
+    "mac":"Command+Option+ [ or ]",
+    "windows":"Ctrl+Alt+ [ or ]"
+  },
+  {
+    "action":"Vertical zoom in or out (MIDI)",
+    "mac":"Command+Shift+ ] or [",
+    "windows":"Ctrl+Shift+ ] or ["
+  },
+  {
+    "action":"Vertical zoom to show all notes (lowest to highest) in MIDI and Instrument (MIDI)",
+    "mac":"Command+Control+Shift+[",
+    "windows":"Ctrl+Start+Shift+["
+  },
+  {
+    "action":"Vertical zoom to show all tracks",
+    "mac":"Option+A",
+    "windows":"Alt+A"
+  },
+  {
+    "action":"Horizontal zoom to show all tracks",
+    "mac":"Option+Control+A",
+    "windows":"Alt+Start+A"
+  },
+  {
+    "action":"Horizontal zoom and scroll timeline excluding MIDI events",
+    "mac":"Option+F",
+    "windows":"Alt+F"
+  },
+  {
+    "action":"Horizontal zoom to selection, including MIDI events",
+    "mac":"Option+Control+F",
+    "windows":"Alt+Start+F"
+  },
+  {
+    "action":"Continuously zoom vertically on a single audio track (or group of tracks)",
+    "mac":"Control+drag with the Zoomer tool up or down in the track",
+    "windows":"Start-drag with the Zoomer tool up or down in the track"
+  },
+  {
+    "action":"Continuously zoom vertically on all audio tracks",
+    "mac":"Control+Shift+drag in an audio track with the Zoomer tool",
+    "windows":"Start+Shift-drag in an audio track with the Zoomer tool"
+  },
+  {
+    "action":"Incrementally zoom vertically on all audio tracks",
+    "mac":"Command+Option+[ or Command+Option+]",
+    "windows":"Press Ctrl+Alt+[ or Ctrl+Alt+ ]"
+  },
+  {
+    "action":"Fill window with selection",
+    "mac":"Option-click on Zoomer tool or Option+F",
+    "windows":"Alt-click on Zoomer tool or Alt+F"
+  },
+  {
+    "action":"View entire session and reset waveform display to the default height",
+    "mac":"Double-click on Zoomer tool or Option+A",
+    "windows":"Double-click on Zoomer tool or Alt+A"
+  },
+  {
+    "action":"Set all audio track waveform heights to match the waveform height of the top-most audio track in the Edit window",
+    "mac":"Command-Shift-click any of the Zoom buttons",
+    "windows":"Ctrl-Shift-click any of the Zoom buttons"
+  },
+  {
+    "action":"Zoom vertical and horizontal axis",
+    "mac":"Hold down Command key while dragging the Zoomer tool",
+    "windows":"Hold down Ctrl key while dragging Zoomer tool"
+  },
+  {
+    "action":"Zoom to previous orientation",
+    "mac":"Option-click on any Horizon- tal Zoom In or Out button, or Audio or MIDI Zoom In or Out button",
+    "windows":"Alt-click on any Horizontal Zoom In or Out button, or Audio or MIDI Zoom In or Out button"
+  },
+  {
+    "action":"Maximum zoom before waveform drawn from disk (faster drawing from RAM)",
+    "mac":"Command-click on Zoomer tool",
+    "windows":"Ctrl-click on Zoomer tool)"
+  },
+  {
+    "action":"Zoom Toggle",
+    "mac":"Control+E",
+    "windows":"Start+E"
+  },
+  {
+    "action":"Cancel Zoom Toggle and remain at the same zoom level",
+    "mac":"Option+Shift+E",
+    "windows":"Alt+Shift+E"
+  },
+  {
+    "action":"Recall Zoom presets 1�5",
+    "mac":"Control+Zoom preset num- ber (1, 2, 3, 4, or 5 on com- puter keyboard),\nor Zoom preset number (1, 2,\n3, 4, or 5 on computer keyboard, in Commands Keyboard Focus)",
+    "windows":"Start+Zoom preset number (1, 2, 3, 4, or 5 on computer keyboard),\nor Zoom preset number (1, 2,\n3, 4, or 5 on computer keyboard in Commands Keyboard Focus)"
+  },
+  {
+    "action":"Save Zoom presets 1�5",
+    "mac":"Command-click Zoom preset number in Mix Window toolbar",
+    "windows":"Ctrl-click Zoom preset num- ber in Mix Window toolbar"
+  },
+  {
+    "action":"New Session",
+    "mac":"Command+N",
+    "windows":"Ctrl+N"
+  },
+  {
+    "action":"Open Session",
+    "mac":"Command+O",
+    "windows":"Ctrl+O"
+  },
+  {
+    "action":"Open Recent",
+    "mac":"Command+Shift+O",
+    "windows":"Ctrl+Shift+O"
+  },
+  {
+    "action":"Close session",
+    "mac":"Command+Shift+W",
+    "windows":"Ctrl+Shift+W"
+  },
+  {
+    "action":"Save Session",
+    "mac":"Command+S",
+    "windows":"Ctrl+S"
+  },
+  {
+    "action":"Bounce to Disk",
+    "mac":"Command+Option+B",
+    "windows":"Ctrl+Alt+B"
+  },
+  {
+    "action":"Import Session Data",
+    "mac":"Shift+Option+I",
+    "windows":"Shift+Alt+I"
+  },
+  {
+    "action":"Import Audio",
+    "mac":"Command+Shift+I",
+    "windows":"Ctrl+Shift+I"
+  },
+  {
+    "action":"Import MIDI",
+    "mac":"Command+Option+l",
+    "windows":"Ctrl+Alt+l"
+  },
+  {
+    "action":"Print Score from Pro Tools Session",
+    "mac":"Command+P",
+    "windows":"Ctrl+P"
+  },
+  {
+    "action":"Toggle Audio File Type",
+    "mac":"Command+F",
+    "windows":"Ctrl+F"
+  },
+  {
+    "action":"Toggle Bit Depth",
+    "mac":"Command+B",
+    "windows":"Ctrl+B"
+  },
+  {
+    "action":"Toggle Interleaved option",
+    "mac":"Command+G",
+    "windows":"Ctrl+G"
+  },
+  {
+    "action":"Toggle Sample Rate",
+    "mac":"Command+R",
+    "windows":"Ctrl+R"
+  },
+  {
+    "action":"Toggle I/O Settings",
+    "mac":"Command+I",
+    "windows":"Ctrl+I"
+  },
+  {
+    "action":"Toggle Quick Setup options (Quick Setup only)",
+    "mac":"Command+Up/Down Arrow",
+    "windows":"Ctrl+Up/Down Arrow"
+  },
+  {
+    "action":"Skip all missing files",
+    "mac":"Command+S",
+    "windows":"Ctrl+S"
+  },
+  {
+    "action":"Manually find and relink all missing files",
+    "mac":"Command+M",
+    "windows":"Ctrl+M"
+  },
+  {
+    "action":"Automatically find and relink all missing files",
+    "mac":"Command+A",
+    "windows":"Ctrl+A"
+  },
+  {
+    "action":"Regenerate missing fades",
+    "mac":"Command+R",
+    "windows":"Ctrl+R"
+  },
+  {
+    "action":"Regenerate missing render files",
+    "mac":"Command+D",
+    "windows":"Ctrl+D"
+  },
+  {
+    "action":"Undo",
+    "mac":"Command+Z",
+    "windows":"Ctrl+Z"
+  },
+  {
+    "action":"Redo",
+    "mac":"Command+Shift+Z",
+    "windows":"Ctrl+Shift+Z"
+  },
+  {
+    "action":"Cut",
+    "mac":"Command+X",
+    "windows":"Ctrl+X"
+  },
+  {
+    "action":"Copy",
+    "mac":"Command+C",
+    "windows":"Ctrl+C"
+  },
+  {
+    "action":"Paste",
+    "mac":"Command+V",
+    "windows":"Ctrl+V"
+  },
+  {
+    "action":"Clear",
+    "mac":"Command+B",
+    "windows":"Ctrl+B"
+  },
+  {
+    "action":"Select All",
+    "mac":"Command+A",
+    "windows":"Ctrl+A"
+  },
+  {
+    "action":"Cut Special Cut Clip Gain",
+    "mac":"Control+Shift+X",
+    "windows":"Start+Shift+X"
+  },
+  {
+    "action":"Copy Special Copy Clip Gain",
+    "mac":"Control+Shift+C",
+    "windows":"Start+Shift+C"
+  },
+  {
+    "action":"Paste Special Merge",
+    "mac":"Option+M",
+    "windows":"Alt+M"
+  },
+  {
+    "action":"Paste Special Repeat to Fill Selection",
+    "mac":"Command+Option+V",
+    "windows":"Ctrl+Alt+V"
+  },
+  {
+    "action":"Paste Special to Current Automation Type",
+    "mac":"Command+Control+V",
+    "windows":"Ctrl+Start+V"
+  },
+  {
+    "action":"Clear Special Clear Clip Gain",
+    "mac":"Control+Shift+B",
+    "windows":"Start+Shift+B"
+  },
+  {
+    "action":"Change Timeline Selection to Edit Selection",
+    "mac":"Option+Shift+6 (on numeric keypad)",
+    "windows":"Alt+Shift+6"
+  },
+  {
+    "action":"Change Edit Selection to Match Timeline Selection",
+    "mac":"Option+Shift+5 (on numeric keypad)",
+    "windows":"Alt+Shift+5"
+  },
+  {
+    "action":"Play Edit Selection",
+    "mac":"Option+[",
+    "windows":"Alt+["
+  },
+  {
+    "action":"Play Timeline Selection (in Dynamic Trans- port Mode or when Link Timeline and Edit Selection is disabled)",
+    "mac":"Option+]",
+    "windows":"Alt+]"
+  },
+  {
+    "action":"Duplicate selection",
+    "mac":"Command+D",
+    "windows":"Ctrl+D"
+  },
+  {
+    "action":"Repeat selection",
+    "mac":"Option+R",
+    "windows":"Alt+R"
+  },
+  {
+    "action":"Shift selection",
+    "mac":"Option+H",
+    "windows":"Alt+H"
+  },
+  {
+    "action":"Insert Silence",
+    "mac":"Command+Shift+E",
+    "windows":"Ctrl+Shift+E"
+  },
+  {
+    "action":"Trim Clip to Selection",
+    "mac":"Command+T",
+    "windows":"Ctrl+T"
+  },
+  {
+    "action":"Trim Clip Start to Insertion",
+    "mac":"Option+Shift+7",
+    "windows":"Alt+Shift+7"
+  },
+  {
+    "action":"Trim Clip End to Insertion",
+    "mac":"Option+Shift+8",
+    "windows":"Alt+Shift+8"
+  },
+  {
+    "action":"Separate Clip at Selection",
+    "mac":"Command+E",
+    "windows":"Ctrl+E"
+  },
+  {
+    "action":"Heal Separation",
+    "mac":"Command+H",
+    "windows":"Ctrl+H"
+  },
+  {
+    "action":"Strip Silence",
+    "mac":"Command+U",
+    "windows":"Ctrl+U"
+  },
+  {
+    "action":"Consolidate selection",
+    "mac":"Option+Shift+3",
+    "windows":"Alt+Shift+3"
+  },
+  {
+    "action":"TCE Edit to Timeline selection (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Option+Shift+U",
+    "windows":"Alt+Shift+U"
+  },
+  {
+    "action":"Restore Last Selection",
+    "mac":"Command+Option+Z",
+    "windows":"Ctrl+Alt+Z"
+  },
+  {
+    "action":"Create Memory Location",
+    "mac":"Enter (on numeric keypad)",
+    "windows":"Enter (on numeric keypad)"
+  },
+  {
+    "action":"Edit a Memory Location",
+    "mac":"Control-click on Memory Loca- tion marker",
+    "windows":"Start-click on Memory Location marker"
+  },
+  {
+    "action":"Delete Memory Location",
+    "mac":"Option-click on a Memory Loca- tion marker",
+    "windows":"Alt-click on a Memory Location marker"
+  },
+  {
+    "action":"Recall a Memory Location using the numeric keypad",
+    "mac":"Period (.)+Memory Location number+Period (.) (Transport or Shuttle mode),\nor Memory Location number+ Period (.) (Classic mode)",
+    "windows":"Period (.)+Memory Location number+Period (.) (Transport or Shuttle mode),\nor Memory Location number+ Period (.) (Classic mode)"
+  },
+  {
+    "action":"Move only the Song Start Marker, without moving any tick-based data",
+    "mac":"Control-Shift-drag the Song Start Marker",
+    "windows":"Start-Shift-drag the Song Start Marker"
+  },
+  {
+    "action":"Toggle the Timeline Insertion/Play Start Marker Follows Playback preference on and off",
+    "mac":"Control+N",
+    "windows":"Start+N"
+  },
+  {
+    "action":"Toggle Track View on all tracks",
+    "mac":"Option+Minus (�) key (on computer keyboard)",
+    "windows":"Alt+Minus (�) key\n(on computer keyboard)"
+  },
+  {
+    "action":"Change to previous/next Track View on all tracks included in the current selection",
+    "mac":"Control+Command+ Left/Right Arrow keys",
+    "windows":"Ctrl+Start+\nLeft/Right Arrow keys"
+  },
+  {
+    "action":"Change to previous/next Track View on all tracks",
+    "mac":"Control+Option+Command+ Left/Right Arrow keys",
+    "windows":"Ctrl+Alt+Start+ Left/Right Arrow keys"
+  },
+  {
+    "action":"Disable/enable Automation playlist on selected track",
+    "mac":"Command-click on Track View selector",
+    "windows":"Ctrl-click on Track View selector"
+  },
+  {
+    "action":"Disable/enable all Automation playlists on selected track",
+    "mac":"Command+Shift-click on Track View selector",
+    "windows":"Ctrl+Shift-click on Track View selector"
+  },
+  {
+    "action":"Open Plug-in Automation dialog",
+    "mac":"Command+Option+Control- click on Track View selector (in Edit window)",
+    "windows":"Ctrl+Alt+Start-click on param- eters (in Plug-in window)"
+  },
+  {
+    "action":"Access Plug-in Automation commands  (Pro Tools HD and Pro Tools with Complete Production Toolkit only): Automation dialog, Enable/disable plug-in automation",
+    "mac":"Command+Option+Control- click on parameters\n(in Plug-in window)",
+    "windows":"Ctrl-Alt-Start-click on Track View selector\n(in Edit window)"
+  },
+  {
+    "action":"Copy Automation to Send (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Command+Option+H",
+    "windows":"Ctrl+Alt+H"
+  },
+  {
+    "action":"Thin Automation",
+    "mac":"Command+Option+T",
+    "windows":"Ctrl+Alt+T"
+  },
+  {
+    "action":"Write automation to start of session/selection (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Control-click on Transport Return to Zero button",
+    "windows":"Start-click on Transport Return to Zero button"
+  },
+  {
+    "action":"Write automation to end of session/selection (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Control-click on Transport Go to End button",
+    "windows":"Start-click on Transport Go to End button"
+  },
+  {
+    "action":"Write automation from start to end of ses- sion/selection (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Control-Shift-click on Transport Go to End or Return to Zero button",
+    "windows":"Start-Shift-click on Transport Go to End or Return to Zero button"
+  },
+  {
+    "action":"Write Automation to Current Parameter (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Command+Forward Slash (/)",
+    "windows":"Ctrl+Forward Slash (/)"
+  },
+  {
+    "action":"Write Automation to All Enabled Parameters (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Command+Option+ Forward Slash (/)",
+    "windows":"Ctrl+Alt+ Forward Slash (/)"
+  },
+  {
+    "action":"Trim Automation to Current Parameter\n(Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Command+Shift+ Forward Slash (/)",
+    "windows":"Ctrl+Shift+ Forward Slash (/)"
+  },
+  {
+    "action":"Trim Automation to All Enabled Parameters (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Command+Option+Shift+ Forward Slash (/)",
+    "windows":"Ctrl+Alt+Shift+ Forward Slash (/)"
+  },
+  {
+    "action":"Glide Automation to Current Parameter (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Option+Forward Slash (/)",
+    "windows":"Alt+Forward Slash (/)"
+  },
+  {
+    "action":"Glide Automation to All Enabled Parameters (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Option+Shift+ Forward Slash (/)",
+    "windows":"Alt+Shift+ Forward Slash (/)"
+  },
+  {
+    "action":"Suspend Trim automation on all tracks",
+    "mac":"In the Automation window, Command-click the Suspend button",
+    "windows":"In the Automation window, Ctrl-click the Suspend button"
+  },
+  {
+    "action":"Suspend currently displayed automation type on a track",
+    "mac":"Command-click the control name in the Track View selector",
+    "windows":"Ctrl-click the control name in the Track View selector"
+  },
+  {
+    "action":"Vertically constrain automation movement",
+    "mac":"Press Shift and move automa- tion with Grabber tool",
+    "windows":"Press Shift and move auto- mation with Grabber tool"
+  },
+  {
+    "action":"Write new breakpoint to next automation value",
+    "mac":"Press and hold Option+Shift while writing a breakpoint (by clicking with the Grabber tool in a track�s Automation playlist)",
+    "windows":"Press and hold Alt+Shift while writing a breakpoint (by clicking with the Grabber tool in a track�s Automation playlist)"
+  },
+  {
+    "action":"Write new breakpoint to previous automation value",
+    "mac":"Press and hold Com- mand+Option while writing a breakpoint (by clicking with the Grabber tool in a track�s Automation playlist)",
+    "windows":"Press and hold Ctrl+Alt while writing a breakpoint\n(by clicking with the Grabber tool in a track�s Automation playlist)"
+  },
+  {
+    "action":"AutoMatch all controls on a track (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Command-click the Automa- tion Mode selector on the track",
+    "windows":"Ctrl-click the Automation Mode selector on the track"
+  },
+  {
+    "action":"AutoMatch all controls of one automation type (Pro Tools HD and Pro Tools with Com- plete Production Toolkit only)",
+    "mac":"In the Automation window, Command-click the button for the automation type",
+    "windows":"In the Automation window, Ctrl-click the button for the automation type"
+  },
+  {
+    "action":"AutoMatch all controls of one automation type on a channel (Pro Tools HD with ICON work surface only)",
+    "mac":"Hold Command and press the Channel Strip Mode controls for the track whose controls you want to AutoMatch",
+    "windows":"Hold Ctrl and press the Chan- nel Strip Mode controls for the track whose controls you want to AutoMatch"
+  },
+  {
+    "action":"AutoMatch a Pan control or the controls for an individual Insert or Send (Pro Tools HD with ICON work surface only)",
+    "mac":"Hold Command and press the Rotary Encoder Select switch for the control you want to AutoMatch",
+    "windows":"Hold Ctrl and press the Rotary Encoder Select switch for the control you want to AutoMatch"
+  },
+  {
+    "action":"AutoMatch the controls for a plug-in dis- played in the Dynamics or EQ section\n(Pro Tools HD with ICON work surface only)",
+    "mac":"Hold Command and press the Auto switch in the Dyn or EQ section of the console",
+    "windows":"Hold Ctrl and press the\nAuto switch in the Dyn or EQ section of the console"
+  },
+  {
+    "action":"Suspend preview (Pro Tools HD and\nPro Tools with Complete Production Toolkit only)",
+    "mac":"In the Automation window, Command-click the Preview button",
+    "windows":"In the Automation window, Ctrl-click the Preview button"
+  },
+  {
+    "action":"Special Paste of automation data between different controls",
+    "mac":"Command+Control+V",
+    "windows":"Start+Ctrl+V"
+  },
+  {
+    "action":"Configure Write on Stop modes to remain enabled after an automation pass (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Option-click one of the Write On Stop modes (Start, End, or All) to enable the Write On Stop mode",
+    "windows":"Alt-click one of the Write On Stop modes (Start, End, or All) to enable the Write On Stop mode"
+  },
+  {
+    "action":"Display Automation playlist of automation- enabled plug-in control, track volume, or track pan",
+    "mac":"Command-Control-click on control",
+    "windows":""
+  },
+  {
+    "action":"Delete*",
+    "mac":"Backspace",
+    "windows":"Backspace"
+  },
+  {
+    "action":"Cut*",
+    "mac":"Command+X",
+    "windows":"Ctrl+X"
+  },
+  {
+    "action":"Copy*",
+    "mac":"Command+C",
+    "windows":"Ctrl+C"
+  },
+  {
+    "action":"Duplicate*",
+    "mac":"Command+D",
+    "windows":"Ctrl+D"
+  },
+  {
+    "action":"Clear*",
+    "mac":"Command+B",
+    "windows":"Ctrl+B"
+  },
+  {
+    "action":"Insert Silence",
+    "mac":"Command+Shift+E",
+    "windows":"Ctrl+Shift+E"
+  },
+  {
+    "action":"Create Fades (open Fades dialog)",
+    "mac":"Command+F",
+    "windows":"Ctrl+F"
+  },
+  {
+    "action":"Apply crossfade without opening Fades dialog",
+    "mac":"Command+Control+F (uses last selected fade shape)",
+    "windows":"Ctrl+Start+F (uses last selected fade shape)"
+  },
+  {
+    "action":"Fade to Start",
+    "mac":"Option+D",
+    "windows":"Alt+D"
+  },
+  {
+    "action":"Fade to End",
+    "mac":"Option+G",
+    "windows":"Alt+G"
+  },
+  {
+    "action":"Edit crossfade-in only in Fades dialog",
+    "mac":"Option-drag fade-in curve (�None� Link mode only)",
+    "windows":"Alt-drag fade-in curve (�None� mode only)"
+  },
+  {
+    "action":"Edit crossfade-out only in Fades dialog",
+    "mac":"Command-drag fade-out curve (�None� Link mode only)",
+    "windows":"Ctrl-drag fade-out curve (�None� Link mode only)"
+  },
+  {
+    "action":"Audition start/stop in Fades dialog",
+    "mac":"Spacebar",
+    "windows":"Spacebar"
+  },
+  {
+    "action":"Reset to default zoom in Fades dialog",
+    "mac":"Command-click on Zoom In or Zoom Out buttons",
+    "windows":"Ctrl-click on Zoom In or Zoom Out buttons"
+  },
+  {
+    "action":"Reset standard or S-shape crossfades to default curves",
+    "mac":"Option-click fade curve in crossfade fade window (�Equal Power� and �Equal Gain� Link modes only)",
+    "windows":"Alt-click fade curve in crossfade fade window (�Equal Power� and �Equal Gain� Link modes only)"
+  },
+  {
+    "action":"Cycle up/down through Out Shape parame- ter options",
+    "mac":"Control+Up/Down Arrow keys",
+    "windows":"Start+Up/Down Arrow keys"
+  },
+  {
+    "action":"Cycle up/down through In Shape parameter options",
+    "mac":"Option+Up/Down Arrow keys",
+    "windows":"Alt+Up/Down Arrow keys"
+  },
+  {
+    "action":"Cycle up/down through Link parameter options",
+    "mac":"Up/Down Arrow keys",
+    "windows":"Up/Down Arrow keys"
+  },
+  {
+    "action":"Cycle up/down through preset Out Shape curves",
+    "mac":"Control+Left/Right Arrow keys",
+    "windows":"Start+Left/Right Arrow keys"
+  },
+  {
+    "action":"Cycle up/down through preset In Shape curves",
+    "mac":"Option+Left/Right Arrow keys",
+    "windows":"Alt+Left/Right Arrow keys"
+  },
+  {
+    "action":"View Narrow Mix window option",
+    "mac":"Command+Option+M",
+    "windows":"Ctrl+Alt+M"
+  },
+  {
+    "action":"View Real-Time Properties window",
+    "mac":"Option+4 (on the numeric keypad)",
+    "windows":"Alt+4 (on the numeric keypad)"
+  },
+  {
+    "action":"New Track",
+    "mac":"Command+Shift+N",
+    "windows":"Ctrl+Shift+N"
+  },
+  {
+    "action":"Group Tracks",
+    "mac":"Command+G (with two or more tracks selected)",
+    "windows":"Ctrl+G (with two or more tracks selected)"
+  },
+  {
+    "action":"Duplicate Tracks",
+    "mac":"Option+Shift+D",
+    "windows":"Alt+Shift+D"
+  },
+  {
+    "action":"Auto Input Monitoring/Input Only Monitoring (Pro Tools LE only)",
+    "mac":"Option+K",
+    "windows":"Alt+K"
+  },
+  {
+    "action":"Set Record Tracks to Input Only/Set Record Tracks to Auto Input (Pro Tools HD)",
+    "mac":"Option+K",
+    "windows":"Alt+K"
+  },
+  {
+    "action":"Scroll to Track number",
+    "mac":"Command+Option+F",
+    "windows":"Ctrl+Alt+F"
+  },
+  {
+    "action":"Clear all Clip indicators",
+    "mac":"Option+C",
+    "windows":"Alt+C"
+  },
+  {
+    "action":"Cycle through Track Type choices",
+    "mac":"Command+ Up/Down Arrow keys",
+    "windows":"Ctrl+Up/Down Arrow keys"
+  },
+  {
+    "action":"Cycle through Track Format choices",
+    "mac":"Command+ Left/Right Arrow keys",
+    "windows":"Ctrl+Left/Right Arrow keys"
+  },
+  {
+    "action":"Cycle through Track Timebase choices",
+    "mac":"Command+Option+ Up/Down Arrow keys",
+    "windows":"Ctrl+Alt+Up/Down Arrow keys"
+  },
+  {
+    "action":"Add or delete a Track Entry field",
+    "mac":"Command+Plus/Minus (+/�) keys or Command+ Shift+Up/Down Arrow keys",
+    "windows":"Ctrl+Plus/Minus (+/�) keys, or Ctrl+Shift+Up/Down Arrow keys"
+  },
+  {
+    "action":"Re-arrange Track Entry field (move up/down)",
+    "mac":"Drag the Move Row icon (at the right of each Track Entry row) to desired position",
+    "windows":"Drag the Move Row icon (at the right of each Track Entry row) to desired position"
+  },
+  {
+    "action":"Mute/Unmute Clips",
+    "mac":"Command+M",
+    "windows":"Ctrl+M"
+  },
+  {
+    "action":"Lock/Unlock Clips",
+    "mac":"Command+L",
+    "windows":"Ctrl+L"
+  },
+  {
+    "action":"Time Lock/Unlock the selected Clip",
+    "mac":"Option+Control+L",
+    "windows":"Alt+Start+L"
+  },
+  {
+    "action":"Bring to Front",
+    "mac":"Option+Shift+F",
+    "windows":"Alt+Shift+F"
+  },
+  {
+    "action":"Send to Back",
+    "mac":"Option+Shift+B",
+    "windows":"Alt+Shift+B"
+  },
+  {
+    "action":"Group Clips",
+    "mac":"Command+Option+G",
+    "windows":"Ctrl+Alt+G"
+  },
+  {
+    "action":"Ungroup Clips",
+    "mac":"Command+Option+U",
+    "windows":"Ctrl+Alt+U"
+  },
+  {
+    "action":"Regroup Clips",
+    "mac":"Command+Option+R",
+    "windows":"Ctrl+Alt+R"
+  },
+  {
+    "action":"Loop Clip",
+    "mac":"Command+Option+L",
+    "windows":"Ctrl+Alt+L"
+  },
+  {
+    "action":"Capture Clip",
+    "mac":"Command+R",
+    "windows":"Ctrl+R"
+  },
+  {
+    "action":"Identify Sync Point",
+    "mac":"Command+Comma (,)",
+    "windows":"Ctrl+Comma (,)"
+  },
+  {
+    "action":"Quantize Clip to Nearest Grid",
+    "mac":"Command+0 (zero)",
+    "windows":"Ctrl+0"
+  },
+  {
+    "action":"Open Elastic Properties windows",
+    "mac":"Option+5 (on numeric keypad)",
+    "windows":"Alt+5 (on numeric keypad)"
+  },
+  {
+    "action":"Select Clip by name",
+    "mac":"Click the Clip List a�z button, then type the first letters of the desired Clip",
+    "windows":"Click the Clip List a�z button, then type the first letters of the desired Clip"
+  },
+  {
+    "action":"Find Clip",
+    "mac":"Command+Shift+F",
+    "windows":"Ctrl+Shift+F"
+  },
+  {
+    "action":"Clear Find",
+    "mac":"Command+Shift+D",
+    "windows":"Ctrl+Shift+D"
+  },
+  {
+    "action":"Show/Hide Audio Clips",
+    "mac":"Command+Shift+1 (on numeric keypad)",
+    "windows":"Ctrl+Shift+1\n(on numeric keypad)"
+  },
+  {
+    "action":"Show/Hide MIDI Clips",
+    "mac":"Command+Shift+2 (on numeric keypad)",
+    "windows":"Ctrl+Shift+2\n(on numeric keypad)"
+  },
+  {
+    "action":"Show/Hide Groups",
+    "mac":"Command+Shift+3 (on numeric keypad)",
+    "windows":"Ctrl+Shift+3\n(on numeric keypad)"
+  },
+  {
+    "action":"Show/Hide Auto-Created Clip",
+    "mac":"Command+Option+K",
+    "windows":"Ctrl+Alt+k"
+  },
+  {
+    "action":"Select All Clips in Clip List",
+    "mac":"Command+Shift+A",
+    "windows":"Ctrl+Shift+A"
+  },
+  {
+    "action":"Select Unused Clips",
+    "mac":"Command+Shift+U",
+    "windows":"Ctrl+Shift+U"
+  },
+  {
+    "action":"Clear selected Clips",
+    "mac":"Command+Shift+B",
+    "windows":"Ctrl+Shift+B"
+  },
+  {
+    "action":"Rename selected Clips",
+    "mac":"Command+Shift+R",
+    "windows":"Ctrl+Shift+R"
+  },
+  {
+    "action":"Time Stamp selected Clips",
+    "mac":"Command+Shift+M",
+    "windows":"Ctrl+Shift+M"
+  },
+  {
+    "action":"Export Clip Definition",
+    "mac":"Command+Shift+Y",
+    "windows":"Ctrl+Shift+Y"
+  },
+  {
+    "action":"Export Clips as Files",
+    "mac":"Command+Shift+K",
+    "windows":"Ctrl+Shift+K"
+  },
+  {
+    "action":"Select or deselect a Clip",
+    "mac":"Command-click a Clip",
+    "windows":"Ctrl-click a Clip"
+  },
+  {
+    "action":"Select multiple contiguous Clips",
+    "mac":"Click one Clip, then Shift-click another Clip to select or deselect all Clips between",
+    "windows":"Click one Clip, then Shift-click another Clip to select or deselect all Clips between"
+  },
+  {
+    "action":"Select or deselect multiple discontiguous Clips with the Marquee",
+    "mac":"Place the cursor to the left of the names in the Clip List. When the Marquee (�+�) appears, hold Command and drag to select or deselect the desired Clips",
+    "windows":"Place the cursor to the left of the names in the Clip List. When the Marquee (�+�) appears, hold Ctrl and drag to select or deselect the desired Clips."
+  },
+  {
+    "action":"Bypass dialogs during deletion of audio files",
+    "mac":"Option-click Delete or Yes when prompted",
+    "windows":"Alt-click Delete or Yes when prompted"
+  },
+  {
+    "action":"Audition Clip in Clip List",
+    "mac":"Option-click and hold on Clip in Clip List",
+    "windows":"Alt-click and hold on Clip in Clip List"
+  },
+  {
+    "action":"Rename Clip/file",
+    "mac":"Double-click Clip in Clip List, or double-click with Grabber tool on Clip in playlist",
+    "windows":"Double-click Clip in Clip List, or double-click with Grabber tool on Clip in playlist"
+  },
+  {
+    "action":"Constrain Clip placement to start at play/edit cursor location or selection start",
+    "mac":"Control and drag Clip",
+    "windows":"Start-click and drag Clip"
+  },
+  {
+    "action":"Constrain Clip placement to end at play/edit cursor location or selection end",
+    "mac":"Command+Control and drag Clip",
+    "windows":"Start+Ctrl and drag Clip"
+  },
+  {
+    "action":"Show/Hide all tracks",
+    "mac":"Option-click on any Track Show/Hide icon in Track List",
+    "windows":"Alt-click on any\nTrack Show/Hide icon in Track List"
+  },
+  {
+    "action":"Select all tracks",
+    "mac":"Option-click on any Track Name in Track List",
+    "windows":"Alt-click on any Track Name in Track List"
+  },
+  {
+    "action":"Suspend All Groups",
+    "mac":"Command+Shift+G, or Command-click on Groups pop-up menu",
+    "windows":"Ctrl+Shift+G, or\nCtrl-click on Groups pop-up menu"
+  },
+  {
+    "action":"Rename group",
+    "mac":"Double-click to far left of Group name in Group List",
+    "windows":"Double-click to far left of Group name in Group List"
+  },
+  {
+    "action":"Group enable/disable",
+    "mac":"Click the Group List Key- board Focus, then type the letter corresponding to desired group",
+    "windows":"Click Group List Keyboard Focus, then type the letter corresponding to desired group"
+  },
+  {
+    "action":"Select all tracks in a group",
+    "mac":"Click to the left of a Group name in Group List",
+    "windows":"Click to the left of a Group name in Group List"
+  },
+  {
+    "action":"Temporarily isolate channel strip from Groups",
+    "mac":"Control-click (or Right-click) applicable Group parameter",
+    "windows":""
+  },
+  {
+    "action":"Show group members only",
+    "mac":"Control-click on Group(s) in Group List",
+    "windows":""
+  },
+  {
+    "action":"Add selected track to a group in Tracks View",
+    "mac":"Press A",
+    "windows":"Press A"
+  },
+  {
+    "action":"Remove selected track from a group in Tracks View",
+    "mac":"Press R",
+    "windows":"Press R"
+  },
+  {
+    "action":"Select or deselect all attributes in Attributes View",
+    "mac":"Option-Shift-click any attribute",
+    "windows":"Alt-Shift-click any attribute"
+  },
+  {
+    "action":"Select or deselect all attributes for a single Send or Insert (across a row) in Attributes View",
+    "mac":"Control-click any attribute in a row",
+    "windows":"Start-click any attribute in a row"
+  },
+  {
+    "action":"Select or deselect attributes for a single con- trol across all Sends, all Inserts, or for the four track controls (down a column) in Attributes View",
+    "mac":"Option-click any attribute in a column",
+    "windows":"Alt-click any attribute in a column"
+  },
+  {
+    "action":"Toggle between Real-Time and Rendered Elastic Audio processing",
+    "mac":"Command-Control-click the Elastic Audio plug-in button",
+    "windows":"Ctrl-Start-click the Elastic Audio plug-in button"
+  },
+  {
+    "action":"Add a Warp marker on top of an event",
+    "mac":"With the Grabber tool,\nControl-click any Event marker",
+    "windows":"With the Grabber tool,\nStart-click any Event marker"
+  },
+  {
+    "action":"Relocate a Warp marker (without applying warping)",
+    "mac":"With the Grabber or the Pencil tool, Control-click and drag a Warp marker to a new location",
+    "windows":"With the Grabber or the Pencil tool, Start-click and drag a Warp marker to a new location"
+  },
+  {
+    "action":"Delete a Warp marker",
+    "mac":"Double-click a Warp marker, or with the Grabber or the Pencil tool, Option-click a Warp marker",
+    "windows":"Double-click a Warp marker, or with the Grabber or the Pencil tool, Alt-click a Warp marker"
+  },
+  {
+    "action":"Delete all Warp markers in a selection",
+    "mac":"Press Delete or Backspace",
+    "windows":"Press Delete or Backspace"
+  },
+  {
+    "action":"Telescope-Warp audio before first Warp marker in or out",
+    "mac":"With the Grabber tool, Option- click and drag first Event marker to the left or right",
+    "windows":"With the Grabber tool, Alt- click and drag first Event marker to the left or right"
+  },
+  {
+    "action":"Add an Event marker",
+    "mac":"With the Grabber tool, Control-click at the location where you want to add an Event marker",
+    "windows":"With the Grabber tool, Start-click at the location where you want to add an Event marker"
+  },
+  {
+    "action":"Delete an Event marker",
+    "mac":"With the Graber Tool or Pencil tool, Option-click the Event marker you want to delete",
+    "windows":"With the Graber Tool or Pencil tool, Alt-click the Event marker you want to delete"
+  },
+  {
+    "action":"Open Time Operations window",
+    "mac":"Option+1\n(on numeric keypad)",
+    "windows":"Alt+1\n(on numeric keypad)"
+  },
+  {
+    "action":"Open Tempo Operations window",
+    "mac":"Option+2\n(on numeric keypad)",
+    "windows":"Alt+2\n(on numeric keypad)"
+  },
+  {
+    "action":"Open Event Operations window",
+    "mac":"Option+3\n(on numeric keypad)",
+    "windows":"Alt+3\n(on numeric keypad)"
+  },
+  {
+    "action":"Quantize (in Event Operations window)",
+    "mac":"Option+0\n(on numeric keypad)",
+    "windows":"Alt+0\n(on numeric keypad)"
+  },
+  {
+    "action":"Change Duration\n(in Event Operations window)",
+    "mac":"Option+P",
+    "windows":"Alt+P"
+  },
+  {
+    "action":"Transpose (in Event Operations window)",
+    "mac":"Option+T",
+    "windows":"Alt+T"
+  },
+  {
+    "action":"Select/Split Notes\n(in Event Operations window)",
+    "mac":"Option+Y",
+    "windows":"Alt+Y"
+  },
+  {
+    "action":"Open MIDI Event List window",
+    "mac":"Option+Equal (=)",
+    "windows":"Alt+Equal (=)"
+  },
+  {
+    "action":"Open Beat Detective window",
+    "mac":"Command+8\n(on numeric keypad)",
+    "windows":"Ctrl+8\n(on numeric keypad)"
+  },
+  {
+    "action":"Identify Beat",
+    "mac":"Command+I",
+    "windows":"Ctrl+I"
+  },
+  {
+    "action":"All MIDI Notes Off",
+    "mac":"Command+Shift+Period (.)",
+    "windows":"Ctrl+Shift+Period (.)"
+  },
+  {
+    "action":"Enter start time field for editing",
+    "mac":"Command+Enter (on numeric keypad)",
+    "windows":"Ctrl+Enter\n(on numeric keypad)"
+  },
+  {
+    "action":"Show Event Filter dialog",
+    "mac":"Command+F",
+    "windows":"Ctrl+F"
+  },
+  {
+    "action":"Go to",
+    "mac":"Command+G",
+    "windows":"Ctrl+G"
+  },
+  {
+    "action":"Scroll to Edit selection",
+    "mac":"Command+H",
+    "windows":"Ctrl+H"
+  },
+  {
+    "action":"Insert another event",
+    "mac":"Command+M",
+    "windows":"Ctrl+M"
+  },
+  {
+    "action":"Insert note",
+    "mac":"Command+N",
+    "windows":"Ctrl+N"
+  },
+  {
+    "action":"Insert Program Change",
+    "mac":"Command+P",
+    "windows":"Ctrl-P"
+  },
+  {
+    "action":"Insert Controller",
+    "mac":"Command+L",
+    "windows":"Ctrl+L"
+  },
+  {
+    "action":"Insert Poly Pressure",
+    "mac":"Command+O (letter)",
+    "windows":"Ctrl+O (letter)"
+  },
+  {
+    "action":"Delete event in MIDI Events List",
+    "mac":"Option-click",
+    "windows":"Alt-click"
+  },
+  {
+    "action":"Whole note",
+    "mac":"1",
+    "windows":"1"
+  },
+  {
+    "action":"1/2 note",
+    "mac":"2",
+    "windows":"2"
+  },
+  {
+    "action":"1/4 note",
+    "mac":"4",
+    "windows":"4"
+  },
+  {
+    "action":"1/8 note",
+    "mac":"5",
+    "windows":"5"
+  },
+  {
+    "action":"1/16 note",
+    "mac":"6",
+    "windows":"6"
+  },
+  {
+    "action":"1/32 note",
+    "mac":"7",
+    "windows":"7"
+  },
+  {
+    "action":"1/64 note",
+    "mac":"8",
+    "windows":"8"
+  },
+  {
+    "action":"Dotted note",
+    "mac":"Decimal key (.)",
+    "windows":"Decimal key (.)"
+  },
+  {
+    "action":"Toggle Tuplet on/off",
+    "mac":"3",
+    "windows":"3"
+  },
+  {
+    "action":"Next step",
+    "mac":"Enter",
+    "windows":"Enter"
+  },
+  {
+    "action":"Undo step",
+    "mac":"0",
+    "windows":"0"
+  },
+  {
+    "action":"Nudge forward",
+    "mac":"Plus (+)",
+    "windows":"Plus (+)"
+  },
+  {
+    "action":"Nudge back",
+    "mac":"Minus (�)",
+    "windows":"Minus (�)"
+  },
+  {
+    "action":"Select Main Location indicator",
+    "mac":"Equals (=)",
+    "windows":"Equals (=)"
+  },
+  {
+    "action":"Edit Selection indicators",
+    "mac":"/",
+    "windows":"/"
+  },
+  {
+    "action":"Transport Online",
+    "mac":"Command+J",
+    "windows":"Ctrl+J"
+  },
+  {
+    "action":"Video Track Online",
+    "mac":"Command+Shift+J",
+    "windows":"Ctrl+Shift+J"
+  },
+  {
+    "action":"Auto-Spot Clips",
+    "mac":"Command+P",
+    "windows":"Ctrl+P"
+  },
+  {
+    "action":"Session Setup window",
+    "mac":"Command + 2 (on the numeric keypad)",
+    "windows":"Ctrl + 2 (on the numeric keypad)"
+  },
+  {
+    "action":"Go to Synchronization window",
+    "mac":"Command+1",
+    "windows":"Ctrl+1"
+  },
+  {
+    "action":"Go to machine Control window",
+    "mac":"Command+2",
+    "windows":"Ctrl+2"
+  },
+  {
+    "action":"Go to MIDI Controllers window",
+    "mac":"Command+3",
+    "windows":"Ctrl+3"
+  },
+  {
+    "action":"Go to Ethernet Controllers window",
+    "mac":"Command+4",
+    "windows":"Ctrl+4"
+  },
+  {
+    "action":"Go to Mic Preamps window (Pro Tools HD only)",
+    "mac":"Command+5",
+    "windows":"Ctrl+5"
+  },
+  {
+    "action":"Go to Display window",
+    "mac":"Command+1",
+    "windows":"Ctrl+1"
+  },
+  {
+    "action":"Go to Operation window",
+    "mac":"Command+2",
+    "windows":"Ctrl+2"
+  },
+  {
+    "action":"Go to Editing window",
+    "mac":"Command+3",
+    "windows":"Ctrl+3"
+  },
+  {
+    "action":"Go to Automation window",
+    "mac":"Command+4",
+    "windows":"Ctrl+4"
+  },
+  {
+    "action":"Go to Processing window",
+    "mac":"Command+5",
+    "windows":"Ctrl+5"
+  },
+  {
+    "action":"Go to MIDI window",
+    "mac":"Command+6",
+    "windows":"Ctrl+6"
+  },
+  {
+    "action":"Go to machine Control window",
+    "mac":"Command+7",
+    "windows":"Ctrl+7"
+  },
+  {
+    "action":"Toggle Mix and Edit windows",
+    "mac":"Command+Equal (=)",
+    "windows":"Ctrl+Equal (=)"
+  },
+  {
+    "action":"Hide All Floating windows",
+    "mac":"Command+Option+ Control+W",
+    "windows":"Ctrl+Alt+ Start+W"
+  },
+  {
+    "action":"Show Window Configuration List",
+    "mac":"Command+Option+J",
+    "windows":"Ctrl+Alt+J"
+  },
+  {
+    "action":"Show Task Manager",
+    "mac":"Option+Apostrophe (�)",
+    "windows":"Alt+Apostrophe (�)"
+  },
+  {
+    "action":"Show Workspace",
+    "mac":"Option+Semicolon (;)",
+    "windows":"Alt+Semicolon (;)"
+  },
+  {
+    "action":"Show Project",
+    "mac":"Option+O",
+    "windows":"Alt+O"
+  },
+  {
+    "action":"Bring to Front",
+    "mac":"Option+J",
+    "windows":"Alt+J"
+  },
+  {
+    "action":"Send to Back",
+    "mac":"Option+Shift+J",
+    "windows":"Alt+Shift+J"
+  },
+  {
+    "action":"Show Transport",
+    "mac":"Command+1\n(on numeric keypad)",
+    "windows":"Ctrl+1\n(on numeric keypad)"
+  },
+  {
+    "action":"Show Big Counter",
+    "mac":"Command+3\n(on numeric keypad)",
+    "windows":"Ctrl+3\n(on numeric keypad)"
+  },
+  {
+    "action":"Show Automation Enable",
+    "mac":"Command+4\n(on numeric keypad)",
+    "windows":"Ctrl+4\n(on numeric keypad)"
+  },
+  {
+    "action":"Show Memory Locations",
+    "mac":"Command+5\n(on numeric keypad)",
+    "windows":"Ctrl+5\n(on numeric keypad)"
+  },
+  {
+    "action":"machine Track Arming",
+    "mac":"Command+6\n(on numeric keypad)",
+    "windows":"Ctrl+6\n(on numeric keypad)"
+  },
+  {
+    "action":"Show Video Universe window",
+    "mac":"Command+7\n(on numeric keypad)",
+    "windows":"Ctrl+7\n(on numeric keypad)"
+  },
+  {
+    "action":"Show Video",
+    "mac":"Command+9\n(on numeric keypad)",
+    "windows":"Ctrl+9\n(on numeric keypad)"
+  },
+  {
+    "action":"Open MIDI Editor",
+    "mac":"Control+Equal (=)",
+    "windows":"Start+Equal (=)"
+  },
+  {
+    "action":"Cycle through all open MIDI Editors",
+    "mac":"Control+Equal (=)repeatedly",
+    "windows":"Ctrl+Equal (=) repeatedly"
+  },
+  {
+    "action":"Open Score Editor",
+    "mac":"Option+Control+Equal (=)",
+    "windows":"Alt+Start+Equal (=)"
+  },
+  {
+    "action":"Access Video window commands",
+    "mac":"Control-click (or Right-click) in the Video window",
+    "windows":"Right-click\nin the Video window"
+  },
+  {
+    "action":"Access Video Universe window commands (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
+    "mac":"Control-click (or Right-click) in the Video Universe window",
+    "windows":"Right-click in the\nVideo Universe window"
+  },
+  {
+    "action":"Add new Window Configuration or replace existing one in Window Configuration List",
+    "mac":"Period (.)+number (1�99) +Plus (+)\n(numeric keypad only)",
+    "windows":"Period (.)+number (1�99)+Plus (+)\n(numeric keypad only)"
+  },
+  {
+    "action":"Recall a Window Configuration",
+    "mac":"Period (.)+Window Configuration number (1�99)+Asterisk (*) (numeric keypad only)",
+    "windows":"Period (.)+Window Configuration number (1�99)+Asterisk (*) (numeric keypad only)"
+  },
+  {
+    "action":"Start/stop audition of currently selected audio file/Clip",
+    "mac":"Command+P, or Command+Spacebar",
+    "windows":"Spacebar"
+  },
+  {
+    "action":"Add currently selected audio Clip or file to list",
+    "mac":"Command+A",
+    "windows":"Alt+S"
+  },
+  {
+    "action":"Convert and import selected audio Clip/files",
+    "mac":"Command+C",
+    "windows":"Alt+O (letter)"
+  },
+  {
+    "action":"Remove currently selected audio files/Clips from Clips to Import field",
+    "mac":"Command+R",
+    "windows":"n/a"
+  },
+  {
+    "action":"Remove all audio files/Clips from Clips in Cur- rent File field",
+    "mac":"Command+Option+R",
+    "windows":"n/a"
+  },
+  {
+    "action":"Random-access fwd/rew search selected file",
+    "mac":"Drag slider to or click at new location",
+    "windows":"Drag slider to or click at new location"
+  },
+  {
+    "action":"Audition selected file",
+    "mac":"Command+P",
+    "windows":"Alt+P"
+  },
+  {
+    "action":"Move between file windows",
+    "mac":"Tab",
+    "windows":"Tab"
+  },
+  {
+    "action":"Cancel",
+    "mac":"Escape",
+    "windows":"Escape"
+  },
+  {
+    "action":"Done",
+    "mac":"Command+W",
+    "windows":"Alt+E"
   }
-
 ]
+

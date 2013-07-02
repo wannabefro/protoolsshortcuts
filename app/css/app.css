@@ -1,0 +1,13 @@
+body {
+  max-width: 960px;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media(max-width: 600px){
+  .span12 {
+  font-size: 16px;
+  }
+}

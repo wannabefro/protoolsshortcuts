@@ -1,17 +1,19 @@
 <div class="container-fluid">
   <div class="row-fluid">
-    <div class="span2">
+    <div class="span12">
 
       Search: <input ng-model="query">
+    </div>
+    <div class="span12">
       Mac: <input type="checkbox" ng-model="mac">
       Windows: <input type="checkbox" ng-model="windows">
 
     </div>
-    <div class="span10">
+    <div class="span12">
 
       <ul class="shortcuts">
         <li ng-repeat="shortcut in shortcuts | filter:query" class="thumbnail">
-          <p>{{shortcut.action}}</p>
+          <p ng-click="select(shortcut)">{{shortcut.action}}</p>
           <p ng-show="mac">{{shortcut.mac}}</p>
           <p ng-show="windows">{{shortcut.windows}}</p>
         </li>
