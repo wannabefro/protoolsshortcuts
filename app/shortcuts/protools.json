@@ -134,7 +134,7 @@
     "windows":"Ctrl-click on track Record Enable button"
   },
   {
-    "action":"Cycle through record modes: normal, Destructive, Loop, QuickPunch�, TrackPunch, DestructivePunch",
+    "action":"Cycle through record modes: normal, Destructive, Loop, QuickPunch-, TrackPunch, DestructivePunch",
     "mac":"Control-click on Transport Record Enable button",
     "windows":"Start-click on Transport Record Enable button"
   },
@@ -160,28 +160,28 @@
   },
   {
     "action":"DestructivePunch or TrackPunch enable/disable an audio track (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
-    "mac":"Control-click the track�s Record Enable button",
-    "windows":"Start-click the track�s Record Enable button"
+    "mac":"Control-click the track-s Record Enable button",
+    "windows":"Start-click the track-s Record Enable button"
   },
   {
     "action":"DestructivePunch or TrackPunch enable/disable all audio tracks (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
-    "mac":"Option-Control-click a track�s Record Enable button",
-    "windows":"Alt-Start-click a track�s Record Enable button"
+    "mac":"Option-Control-click a track-s Record Enable button",
+    "windows":"Alt-Start-click a track-s Record Enable button"
   },
   {
     "action":"DestructivePunch or TrackPunch enable/disable all selected audio tracks (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
-    "mac":"Control-Option-Shift-click a track�s Record Enable button",
-    "windows":"Start-Alt-Shift-click a track�s Record Enable button"
+    "mac":"Control-Option-Shift-click a track-s Record Enable button",
+    "windows":"Start-Alt-Shift-click a track-s Record Enable button"
   },
   {
     "action":"Simultaneously DestructivePunch or TrackPunch enable/disable and record enable/disable all audio tracks (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
-    "mac":"Option-click a track�s Record Enable button",
-    "windows":"Alt-click a track�s Record Enable button"
+    "mac":"Option-click a track-s Record Enable button",
+    "windows":"Alt-click a track-s Record Enable button"
   },
   {
     "action":"Simultaneously DestructivePunch or TrackPunch enable/disable and record enable/disable all selected audio tracks (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
-    "mac":"Option-Shift-click a track�s Record Enable button",
-    "windows":"Alt-Shift-click a track�s Record Enable button"
+    "mac":"Option-Shift-click a track-s Record Enable button",
+    "windows":"Alt-Shift-click a track-s Record Enable button"
   },
   {
     "action":"Temporarily force all VCA slave tracks to toggle their record enable status\n(Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
@@ -345,13 +345,13 @@
   },
   {
     "action":"Shuttle Lock (Classic or Transport mode)",
-    "mac":"Control+number key 1�9 (1=minimum, 5=real-time, 9=maximum)",
-    "windows":"Start+number key 1�9 (1=minimum, 5=real-time, 9=maximum)"
+    "mac":"Control+number key 1-9 (1=minimum, 5=real-time, 9=maximum)",
+    "windows":"Start+number key 1-9 (1=minimum, 5=real-time, 9=maximum)"
   },
   {
     "action":"Change direction during Shuttle Lock (Classic or Transport mode)",
-    "mac":"Plus/Minus (+/�) keys For example, Control+ number+Minus (�) key",
-    "windows":"Plus/Minus (+/�) keys For example, Start+ number+Minus (�) key"
+    "mac":"Plus/Minus (+/-) keys For example, Control+ number+Minus (-) key",
+    "windows":"Plus/Minus (+/-) keys For example, Start+ number+Minus (-) key"
   },
   {
     "action":"Shuttle Lock stop (Classic or Transport mode)",
@@ -465,8 +465,8 @@
   },
   {
     "action":"Cycle through Edit modes",
-    "mac":"Single Open Quote (�) key, located above the Tab key",
-    "windows":"Single Open Quote (�) key, located above the Tab key"
+    "mac":"Single Open Quote (-) key, located above the Tab key",
+    "windows":"Single Open Quote (-) key, located above the Tab key"
   },
   {
     "action":"Cycle through Edit tools",
@@ -595,13 +595,13 @@
   },
   {
     "action":"Extend cursor or selection across all tracks",
-    "mac":"Enable �All� Edit group and Shift-click on any other track",
-    "windows":"Enable �All� Edit group and Shift-click on any other track"
+    "mac":"Enable -All- Edit group and Shift-click on any other track",
+    "windows":"Enable -All- Edit group and Shift-click on any other track"
   },
   {
     "action":"Move the selection forward by the selection amount",
-    "mac":"Command+Control+ Option+Apostrophe (�)",
-    "windows":"Ctrl+Alt+Start+Apostrophe (�)"
+    "mac":"Command+Control+ Option+Apostrophe (-)",
+    "windows":"Ctrl+Alt+Start+Apostrophe (-)"
   },
   {
     "action":"Move the selection backward by the selection amount",
@@ -610,8 +610,8 @@
   },
   {
     "action":"Double the length of the Edit selection",
-    "mac":"Command+Control+ Option+Shift+ Apostrophe (�)",
-    "windows":"Ctrl+Alt+Start+Shift+ Apostrophe (�)"
+    "mac":"Command+Control+ Option+Shift+ Apostrophe (-)",
+    "windows":"Ctrl+Alt+Start+Shift+ Apostrophe (-)"
   },
   {
     "action":"Halve the length of the selection",
@@ -665,18 +665,18 @@
   },
   {
     "action":"Change Grid value",
-    "mac":"Control+Option+Plus/Minus (+/�) keys",
-    "windows":"Start+Alt+\nPlus/Minus (+/�) keys"
+    "mac":"Control+Option+Plus/Minus (+/-) keys",
+    "windows":"Start+Alt+\nPlus/Minus (+/-) keys"
   },
   {
     "action":"Change Nudge value",
-    "mac":"Command+Option+ Plus/Minus (+/�) keys",
-    "windows":"Ctrl+Alt+\nPlus/Minus (+/�) keys"
+    "mac":"Command+Option+ Plus/Minus (+/-) keys",
+    "windows":"Ctrl+Alt+\nPlus/Minus (+/-) keys"
   },
   {
     "action":"Nudge back by next Nudge value\n(Nudge Edit selection and any Clips entirely inside the Edit selection)",
-    "mac":"Minus (�) key (on numeric keypad), or Comma (,) (in Commands Keyboard Focus)",
-    "windows":"Minus (�) key (on numeric keypad), or Comma (,) (in Commands Keyboard Focus)"
+    "mac":"Minus (-) key (on numeric keypad), or Comma (,) (in Commands Keyboard Focus)",
+    "windows":"Minus (-) key (on numeric keypad), or Comma (,) (in Commands Keyboard Focus)"
   },
   {
     "action":"Nudge forward by next Nudge value (Nudge Edit selection and any Clips entirely inside the Edit selection)",
@@ -685,33 +685,33 @@
   },
   {
     "action":"Nudge start/end data to right/left by Nudge value (keeps underlying audio and moves start/end)",
-    "mac":"Shift+Plus/Minus (+/�) keys",
-    "windows":"Shift+Plus/Minus (+/�) keys"
+    "mac":"Shift+Plus/Minus (+/-) keys",
+    "windows":"Shift+Plus/Minus (+/-) keys"
   },
   {
     "action":"Nudge data within current Clip to right/left by Nudge value (keeps Clip start/end and moves underlying audio)",
-    "mac":"Control+Plus/Minus (+/�) keys",
-    "windows":"Start+Plus/Minus (+/�) keys"
+    "mac":"Control+Plus/Minus (+/-) keys",
+    "windows":"Start+Plus/Minus (+/-) keys"
   },
   {
     "action":"Nudge left selection boundary right/left by Nudge value",
-    "mac":"Option+Shift+Plus/Minus (+/�) keys",
-    "windows":"Alt+Shift+Plus/Minus (+/�) keys"
+    "mac":"Option+Shift+Plus/Minus (+/-) keys",
+    "windows":"Alt+Shift+Plus/Minus (+/-) keys"
   },
   {
     "action":"Nudge right selection boundary right/left by Nudge value",
-    "mac":"Command+Shift+Plus/Minus (+/�) keys",
-    "windows":"Ctrl+Shift+Plus/Minus (+/�) keys"
+    "mac":"Command+Shift+Plus/Minus (+/-) keys",
+    "windows":"Ctrl+Shift+Plus/Minus (+/-) keys"
   },
   {
     "action":"Trim left edge of Clip to right/left by Nudge value",
-    "mac":"Option+Plus/Minus (+/�) keys",
-    "windows":"Alt+Plus/Minus (+/�) keys"
+    "mac":"Option+Plus/Minus (+/-) keys",
+    "windows":"Alt+Plus/Minus (+/-) keys"
   },
   {
     "action":"Trim right edge of Clip to right/left by Nudge value",
-    "mac":"Command+Plus/Minus (+/�) keys",
-    "windows":"Ctrl+Plus/Minus (+/�) keys"
+    "mac":"Command+Plus/Minus (+/-) keys",
+    "windows":"Ctrl+Plus/Minus (+/-) keys"
   },
   {
     "action":"Reverse Trimmer tool direction when trim- ming Clip",
@@ -780,8 +780,8 @@
   },
   {
     "action":"Nudge the selected clip gain back",
-    "mac":"Control+Shift+Minus (�), Control+Shift+M, or Control+Shift+Comma (,)",
-    "windows":"Start+Shift+Minus (�), Start+Shift+M, or Start+Shift++Comma (,)"
+    "mac":"Control+Shift+Minus (-), Control+Shift+M, or Control+Shift+Comma (,)",
+    "windows":"Start+Shift+Minus (-), Start+Shift+M, or Start+Shift++Comma (,)"
   },
   {
     "action":"Nudge the selected clip gain forward",
@@ -964,12 +964,12 @@
     "windows":"Alt+Shift+E"
   },
   {
-    "action":"Recall Zoom presets 1�5",
+    "action":"Recall Zoom presets 1-5",
     "mac":"Control+Zoom preset num- ber (1, 2, 3, 4, or 5 on com- puter keyboard),\nor Zoom preset number (1, 2,\n3, 4, or 5 on computer keyboard, in Commands Keyboard Focus)",
     "windows":"Start+Zoom preset number (1, 2, 3, 4, or 5 on computer keyboard),\nor Zoom preset number (1, 2,\n3, 4, or 5 on computer keyboard in Commands Keyboard Focus)"
   },
   {
-    "action":"Save Zoom presets 1�5",
+    "action":"Save Zoom presets 1-5",
     "mac":"Command-click Zoom preset number in Mix Window toolbar",
     "windows":"Ctrl-click Zoom preset num- ber in Mix Window toolbar"
   },
@@ -1260,8 +1260,8 @@
   },
   {
     "action":"Toggle Track View on all tracks",
-    "mac":"Option+Minus (�) key (on computer keyboard)",
-    "windows":"Alt+Minus (�) key\n(on computer keyboard)"
+    "mac":"Option+Minus (-) key (on computer keyboard)",
+    "windows":"Alt+Minus (-) key\n(on computer keyboard)"
   },
   {
     "action":"Change to previous/next Track View on all tracks included in the current selection",
@@ -1365,13 +1365,13 @@
   },
   {
     "action":"Write new breakpoint to next automation value",
-    "mac":"Press and hold Option+Shift while writing a breakpoint (by clicking with the Grabber tool in a track�s Automation playlist)",
-    "windows":"Press and hold Alt+Shift while writing a breakpoint (by clicking with the Grabber tool in a track�s Automation playlist)"
+    "mac":"Press and hold Option+Shift while writing a breakpoint (by clicking with the Grabber tool in a track-s Automation playlist)",
+    "windows":"Press and hold Alt+Shift while writing a breakpoint (by clicking with the Grabber tool in a track-s Automation playlist)"
   },
   {
     "action":"Write new breakpoint to previous automation value",
-    "mac":"Press and hold Com- mand+Option while writing a breakpoint (by clicking with the Grabber tool in a track�s Automation playlist)",
-    "windows":"Press and hold Ctrl+Alt while writing a breakpoint\n(by clicking with the Grabber tool in a track�s Automation playlist)"
+    "mac":"Press and hold Com- mand+Option while writing a breakpoint (by clicking with the Grabber tool in a track-s Automation playlist)",
+    "windows":"Press and hold Ctrl+Alt while writing a breakpoint\n(by clicking with the Grabber tool in a track-s Automation playlist)"
   },
   {
     "action":"AutoMatch all controls on a track (Pro Tools HD and Pro Tools with Complete Production Toolkit only)",
@@ -1470,13 +1470,13 @@
   },
   {
     "action":"Edit crossfade-in only in Fades dialog",
-    "mac":"Option-drag fade-in curve (�None� Link mode only)",
-    "windows":"Alt-drag fade-in curve (�None� mode only)"
+    "mac":"Option-drag fade-in curve (-None- Link mode only)",
+    "windows":"Alt-drag fade-in curve (-None- mode only)"
   },
   {
     "action":"Edit crossfade-out only in Fades dialog",
-    "mac":"Command-drag fade-out curve (�None� Link mode only)",
-    "windows":"Ctrl-drag fade-out curve (�None� Link mode only)"
+    "mac":"Command-drag fade-out curve (-None- Link mode only)",
+    "windows":"Ctrl-drag fade-out curve (-None- Link mode only)"
   },
   {
     "action":"Audition start/stop in Fades dialog",
@@ -1490,8 +1490,8 @@
   },
   {
     "action":"Reset standard or S-shape crossfades to default curves",
-    "mac":"Option-click fade curve in crossfade fade window (�Equal Power� and �Equal Gain� Link modes only)",
-    "windows":"Alt-click fade curve in crossfade fade window (�Equal Power� and �Equal Gain� Link modes only)"
+    "mac":"Option-click fade curve in crossfade fade window (-Equal Power- and -Equal Gain- Link modes only)",
+    "windows":"Alt-click fade curve in crossfade fade window (-Equal Power- and -Equal Gain- Link modes only)"
   },
   {
     "action":"Cycle up/down through Out Shape parame- ter options",
@@ -1580,8 +1580,8 @@
   },
   {
     "action":"Add or delete a Track Entry field",
-    "mac":"Command+Plus/Minus (+/�) keys or Command+ Shift+Up/Down Arrow keys",
-    "windows":"Ctrl+Plus/Minus (+/�) keys, or Ctrl+Shift+Up/Down Arrow keys"
+    "mac":"Command+Plus/Minus (+/-) keys or Command+ Shift+Up/Down Arrow keys",
+    "windows":"Ctrl+Plus/Minus (+/-) keys, or Ctrl+Shift+Up/Down Arrow keys"
   },
   {
     "action":"Re-arrange Track Entry field (move up/down)",
@@ -1655,8 +1655,8 @@
   },
   {
     "action":"Select Clip by name",
-    "mac":"Click the Clip List a�z button, then type the first letters of the desired Clip",
-    "windows":"Click the Clip List a�z button, then type the first letters of the desired Clip"
+    "mac":"Click the Clip List a-z button, then type the first letters of the desired Clip",
+    "windows":"Click the Clip List a-z button, then type the first letters of the desired Clip"
   },
   {
     "action":"Find Clip",
@@ -1735,8 +1735,8 @@
   },
   {
     "action":"Select or deselect multiple discontiguous Clips with the Marquee",
-    "mac":"Place the cursor to the left of the names in the Clip List. When the Marquee (�+�) appears, hold Command and drag to select or deselect the desired Clips",
-    "windows":"Place the cursor to the left of the names in the Clip List. When the Marquee (�+�) appears, hold Ctrl and drag to select or deselect the desired Clips."
+    "mac":"Place the cursor to the left of the names in the Clip List. When the Marquee (-+-) appears, hold Command and drag to select or deselect the desired Clips",
+    "windows":"Place the cursor to the left of the names in the Clip List. When the Marquee (-+-) appears, hold Ctrl and drag to select or deselect the desired Clips."
   },
   {
     "action":"Bypass dialogs during deletion of audio files",
@@ -2035,8 +2035,8 @@
   },
   {
     "action":"Nudge back",
-    "mac":"Minus (�)",
-    "windows":"Minus (�)"
+    "mac":"Minus (-)",
+    "windows":"Minus (-)"
   },
   {
     "action":"Select Main Location indicator",
@@ -2145,8 +2145,8 @@
   },
   {
     "action":"Show Task Manager",
-    "mac":"Option+Apostrophe (�)",
-    "windows":"Alt+Apostrophe (�)"
+    "mac":"Option+Apostrophe (-)",
+    "windows":"Alt+Apostrophe (-)"
   },
   {
     "action":"Show Workspace",
@@ -2230,13 +2230,13 @@
   },
   {
     "action":"Add new Window Configuration or replace existing one in Window Configuration List",
-    "mac":"Period (.)+number (1�99) +Plus (+)\n(numeric keypad only)",
-    "windows":"Period (.)+number (1�99)+Plus (+)\n(numeric keypad only)"
+    "mac":"Period (.)+number (1-99) +Plus (+)\n(numeric keypad only)",
+    "windows":"Period (.)+number (1-99)+Plus (+)\n(numeric keypad only)"
   },
   {
     "action":"Recall a Window Configuration",
-    "mac":"Period (.)+Window Configuration number (1�99)+Asterisk (*) (numeric keypad only)",
-    "windows":"Period (.)+Window Configuration number (1�99)+Asterisk (*) (numeric keypad only)"
+    "mac":"Period (.)+Window Configuration number (1-99)+Asterisk (*) (numeric keypad only)",
+    "windows":"Period (.)+Window Configuration number (1-99)+Asterisk (*) (numeric keypad only)"
   },
   {
     "action":"Start/stop audition of currently selected audio file/Clip",
